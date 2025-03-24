@@ -1,0 +1,61 @@
+{
+    "parent": "item_insanity:root",
+    "criteria": {
+        "white_wool": {
+            "conditions": {
+                "items": [{"items": "minecraft:white_wool"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "black_wool": {
+            "conditions": {
+                "items": [{"items": "minecraft:black_wool"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "white_terracotta": {
+            "conditions": {
+                "items": [{"items": "minecraft:white_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "black_terracotta": {
+            "conditions": {
+                "items": [{"items": "minecraft:black_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "white_glazed_terracotta": {
+            "conditions": {
+                "items": [{"items": "minecraft:white_glazed_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "black_glazed_terracotta": {
+            "conditions": {
+                "items": [{"items": "minecraft:black_glazed_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+      ["white_wool"], ["black_wool"],
+      ["white_terracotta"], ["black_terracotta"],
+      ["white_glazed_terracotta"], ["black_glazed_terracotta"]
+    ],
+    "display": {
+        "icon": {
+            "id": "minecraft:red_dye"
+        },
+        "title": "King of Colour",
+        "description": {
+            "text": "ALL the Coloured Items!",
+            "color": "light_purple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}
+  

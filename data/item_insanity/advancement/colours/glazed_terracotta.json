@@ -1,32 +1,29 @@
 {
-    "parent": "item_insanity:root",
+    "parent": "item_insanity:colours/terracotta",
     "criteria": {
-        "white_wool": {
+        "white": {
             "conditions": {
-                "items": [{"items": "minecraft:white_wool"}]
+                "items": [{"items": "minecraft:white_glazed_terracotta"}]
             },
             "trigger": "minecraft:inventory_changed"
         },
-        "black_wool": {
+        "black": {
             "conditions": {
-                "items": [{"items": "minecraft:black_wool"}]
+                "items": [{"items": "minecraft:black_glazed_terracotta"}]
             },
             "trigger": "minecraft:inventory_changed"
         }
     },
     "requirements": [
-      ["white_wool"], ["black_wool"]
+      ["white"], ["black"]
     ],
     "display": {
         "icon": {
-            "id": "minecraft:white_wool"
+            "id": "minecraft:white_glazed_terracotta"
         },
-        "title": {
-            "text": "Wool Collector",
-            "color": "yellow"
-        },
+        "title": "Glazed Terracotta Collector",
         "description": {
-            "text": "Collect both black and white wool.",
+            "text": "All the Glazed Terracotta colours.",
             "color": "gray"
         },
         "frame": "goal",
@@ -35,4 +32,3 @@
         "hidden": false
     }
 }
-  

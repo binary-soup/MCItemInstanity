@@ -1,0 +1,34 @@
+{
+    "parent": "item_insanity:colours/root",
+    "criteria": {
+        "white": {
+            "conditions": {
+                "items": [{"items": "minecraft:white_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "black": {
+            "conditions": {
+                "items": [{"items": "minecraft:black_terracotta"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+      ["white"], ["black"]
+    ],
+    "display": {
+        "icon": {
+            "id": "minecraft:white_terracotta"
+        },
+        "title": "Terracotta Collector",
+        "description": {
+            "text": "All the Terracotta colours.",
+            "color": "gray"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}
