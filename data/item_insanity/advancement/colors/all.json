@@ -1,5 +1,5 @@
 {
-    "parent": "item_insanity:root",
+    "parent": "item_insanity:colors/root",
     "criteria": {
         "white_wool": {
             "conditions": {
@@ -47,9 +47,9 @@
         "icon": {
             "id": "minecraft:red_dye"
         },
-        "title": "King of Colour",
+        "title": "King of Color",
         "description": {
-            "text": "ALL the Coloured Items!",
+            "text": "Collect them ALL!",
             "color": "light_purple"
         },
         "frame": "challenge",

@@ -1,5 +1,5 @@
 {
-    "parent": "item_insanity:colours/terracotta",
+    "parent": "item_insanity:colors/terracotta",
     "criteria": {
         "white": {
             "conditions": {
@@ -23,7 +23,7 @@
         },
         "title": "Glazed Terracotta Collector",
         "description": {
-            "text": "All the Glazed Terracotta colours.",
+            "text": "All the Glazed Terracotta colors.",
             "color": "gray"
         },
         "frame": "goal",

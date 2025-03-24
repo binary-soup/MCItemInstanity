@@ -1,15 +1,15 @@
 {
-    "parent": "item_insanity:colours/root",
+    "parent": "item_insanity:colors/root",
     "criteria": {
         "white": {
             "conditions": {
-                "items": [{"items": "minecraft:white_terracotta"}]
+                "items": [{"items": "minecraft:white_dye"}]
             },
             "trigger": "minecraft:inventory_changed"
         },
         "black": {
             "conditions": {
-                "items": [{"items": "minecraft:black_terracotta"}]
+                "items": [{"items": "minecraft:black_dye"}]
             },
             "trigger": "minecraft:inventory_changed"
         }
@@ -19,12 +19,12 @@
     ],
     "display": {
         "icon": {
-            "id": "minecraft:white_terracotta"
+            "id": "minecraft:white_dye"
         },
-        "title": "Terracotta Collector",
+        "title": "Dyeing to Get Started!",
         "description": {
-            "text": "All the Terracotta colours.",
-            "color": "gray"
+            "text": "All the Dyes",
+            "color": "yellow"
         },
         "frame": "goal",
         "show_toast": true,
@@ -32,3 +32,4 @@
         "hidden": false
     }
 }
+  

@@ -1,21 +1,14 @@
 {
 	"display": {
-    "icon": {"id": "minecraft:chest"},
+    	"icon": {"id": "minecraft:chest"},
 		"title": "Item Insanity",
-		"description": [
-			"",
-			{
-				"text": "Collect every item in the game!\n\n",
-				"color": "gold"
-			},
-			{
-				"text": "Created by github.com/binary-soup",
-				"color": "aqua"
-			}
-		],
-		"background": "minecraft:textures/block/black_concrete.png",
+		"description": {
+			"text": "Collect every item in the game!",
+			"color": "gold"
+		},
+		"background": "minecraft:textures/block/deepslate.png",
 		"frame": "task",
-		"show_toast": false,
+		"show_toast": true,
 		"announce_to_chat": false
 	},
 	"criteria": {
