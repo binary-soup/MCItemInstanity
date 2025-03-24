@@ -1,0 +1,38 @@
+{
+    "parent": "item_insanity:root",
+    "criteria": {
+        "white_wool": {
+            "conditions": {
+                "items": [{"items": "minecraft:white_wool"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "black_wool": {
+            "conditions": {
+                "items": [{"items": "minecraft:black_wool"}]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+      ["white_wool"], ["black_wool"]
+    ],
+    "display": {
+        "icon": {
+            "id": "minecraft:white_wool"
+        },
+        "title": {
+            "text": "Wool Collector",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Collect both black and white wool.",
+            "color": "gray"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}
+  
