@@ -1,0 +1,26 @@
+{
+	"display": {
+    "icon": {"id": "minecraft:book"},
+		"title": "Item Insanity",
+		"frame": "challenge",
+		"description": [
+			"",
+			{
+				"text": "Collect every item in the game!\n",
+				"color": "gold"
+			},
+			{
+				"text": "Created by github.com/binary-soup",
+				"color": "yellow"
+			}
+		],
+		"background": "minecraft:textures/block/black_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
