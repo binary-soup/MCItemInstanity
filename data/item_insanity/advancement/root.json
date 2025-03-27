@@ -1,12 +1,12 @@
 {
 	"display": {
     	"icon": {"id": "minecraft:chest"},
-		"title": "Item Insanity",
+		"title": "Item Insanity: About",
 		"description": {
 			"text": "Collect every item in the game!",
 			"color": "gold"
 		},
-		"background": "minecraft:textures/block/deepslate.png",
+		"background": "minecraft:block/cobblestone",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false

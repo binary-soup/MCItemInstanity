@@ -6,7 +6,7 @@
             "text": "Collect all the COLORED blocks!",
             "color": "gold"
         },
-		"background": "minecraft:textures/block/black_wool.png",
+		"background": "minecraft:block/gray_glazed_terracotta",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false
