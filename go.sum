@@ -2,3 +2,5 @@ github.com/binary-soup/go-command v1.0.1 h1:wY5tI8xb5aCvUAj5s11amRLuJiqTrzomxrmG
 github.com/binary-soup/go-command v1.0.1/go.mod h1:PKWp67aYKESU+WcDgn6+ror5TmL2av/4RbvFStZQELM=
 github.com/binary-soup/go-command v1.1.0 h1:HOeRGs5n75k1gfYq1sFiwDyESYtK7mC2zb9SFFx6zo8=
 github.com/binary-soup/go-command v1.1.0/go.mod h1:PKWp67aYKESU+WcDgn6+ror5TmL2av/4RbvFStZQELM=
+github.com/binary-soup/go-command v1.1.1 h1:GbihW2/Tire1wm8qBd7G66Ci2jK7PuSEeZs/2dHNugA=
+github.com/binary-soup/go-command v1.1.1/go.mod h1:PKWp67aYKESU+WcDgn6+ror5TmL2av/4RbvFStZQELM=

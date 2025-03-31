@@ -1,0 +1,16 @@
+{
+    "description": "Adds advancements for collecting every item in the game.",
+    "author": {
+        "creator": "binary_soup",
+        "socials": {
+            "github": "github.com/binary-soup",
+            "youtube": "youtube.com/@binary-soup"
+        }
+    },
+    "root": {
+        "item": "minecraft:chest",
+        "title": "About",
+        "description": "Collect every item in the game!",
+        "background": "minecraft:block/cobblestone"
+    }
+}

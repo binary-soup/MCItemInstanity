@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	build_cmd "item_insanity/cmds/build"
 	extract_cmd "item_insanity/cmds/extract"
 
 	"github.com/binary-soup/go-command/command"
@@ -15,7 +16,10 @@ func main() {
 	ls := flag.Bool("ls", false, "list all commands")
 	flag.Parse()
 
-	runner := command.NewRunner(extract_cmd.NewExtractCommand())
+	runner := command.NewRunner(
+		extract_cmd.NewExtractCommand(),
+		build_cmd.NewBuildCommand(),
+	)
 
 	if *ls || len(os.Args) < 2 {
 		runner.ListCommands()
