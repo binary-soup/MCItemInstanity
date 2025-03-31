@@ -12,7 +12,7 @@ import (
 )
 
 const LANG_PATH = "assets/minecraft/lang/en_us.json"
-const RAW_ITEM_LIST = "data/raw_item_list.txt"
+const RAW_ITEM_LIST = "data/items/raw_item_list.txt"
 
 type ExtractCommand struct {
 	command.CommandBase
@@ -32,6 +32,8 @@ func (cmd ExtractCommand) Run(args []string) error {
 
 	input := filepath.Join(cfg.MinecraftDataPath, LANG_PATH)
 	output := cfg.JoinRoot(RAW_ITEM_LIST)
+
+	os.MkdirAll(filepath.Dir(output), 0700)
 
 	err = extractIds(input, output)
 	if err != nil {
@@ -54,6 +56,8 @@ func extractIds(input, output string) error {
 	}
 	defer outFile.Close()
 
+	style.BoldCreate.PrintF("+ %s\n", output)
+
 	count := 0
 	filtered := 0
 
@@ -74,11 +78,8 @@ func extractIds(input, output string) error {
 		item.Write(outFile)
 	}
 
-	style.Success.Print("Count: ")
-	style.BoldSuccess.PrintF("%d\n", count)
-
-	style.Error.Print("Filtered: ")
-	style.BoldError.PrintF("%d\n", filtered)
+	style.Create.PrintF("Count: %d\n", count)
+	style.Delete.PrintF("Filtered: %d\n", filtered)
 
 	return nil
 }
