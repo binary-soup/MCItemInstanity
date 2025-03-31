@@ -7,11 +7,12 @@ import (
 	"path/filepath"
 
 	"github.com/binary-soup/go-command/command"
+	"github.com/binary-soup/go-command/style"
 	"github.com/binary-soup/go-command/util"
 )
 
 const LANG_PATH = "assets/minecraft/lang/en_us.json"
-const OUT_FILE = "raw_item_list.txt"
+const RAW_ITEM_LIST = "data/raw_item_list.txt"
 
 type ExtractCommand struct {
 	command.CommandBase
@@ -30,7 +31,7 @@ func (cmd ExtractCommand) Run(args []string) error {
 	}
 
 	input := filepath.Join(cfg.MinecraftDataPath, LANG_PATH)
-	output := cfg.JoinRoot(OUT_FILE)
+	output := cfg.JoinRoot(RAW_ITEM_LIST)
 
 	err = extractIds(input, output)
 	if err != nil {
@@ -53,17 +54,31 @@ func extractIds(input, output string) error {
 	}
 	defer outFile.Close()
 
+	count := 0
+	filtered := 0
+
 	scanner := bufio.NewScanner(inFile)
 	for scanner.Scan() {
 		item := Item{}
 
-		ok := item.Parse(scanner.Text())
-		if !ok {
+		if !item.Parse(scanner.Text()) {
 			continue
 		}
 
+		if item.Filter() {
+			filtered++
+			continue
+		}
+
+		count++
 		item.Write(outFile)
 	}
+
+	style.Success.Print("Count: ")
+	style.BoldSuccess.PrintF("%d\n", count)
+
+	style.Error.Print("Filtered: ")
+	style.BoldError.PrintF("%d\n", filtered)
 
 	return nil
 }

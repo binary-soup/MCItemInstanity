@@ -6,7 +6,7 @@ import (
 	"regexp"
 )
 
-var ITEM_REGEX = regexp.MustCompile(`^\s*"(block|item)\.minecraft\.(\w+)\S*":\s+"(.+)",?$`)
+var ITEM_REGEX = regexp.MustCompile(`^\s*"(block|item)\.minecraft\.(\w+)":\s+"(.+)",?$`)
 
 type Item struct {
 	Type string
