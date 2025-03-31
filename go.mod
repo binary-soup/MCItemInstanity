@@ -1,5 +1,5 @@
-module root
+module item_insanity
 
 go 1.24
 
-require github.com/binary-soup/go-command v1.0.1 // indirect
+require github.com/binary-soup/go-command v1.1.0
