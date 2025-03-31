@@ -12,8 +12,9 @@ const PATH = "config.json"
 
 func Load() (*Config, error) {
 	path, _ := os.Executable()
+	path = filepath.Dir(path)
 
-	file, err := os.Open(filepath.Join(filepath.Dir(path), PATH))
+	file, err := os.Open(filepath.Join(path, PATH))
 	if err != nil {
 		return nil, util.ChainError(err, "error opening config file")
 	}
@@ -25,5 +26,6 @@ func Load() (*Config, error) {
 		return nil, util.ChainError(err, "error decoding json")
 	}
 
+	cfg.Root = path
 	return &cfg, nil
 }
