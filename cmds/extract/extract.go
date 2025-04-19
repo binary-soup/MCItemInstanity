@@ -30,7 +30,7 @@ func (cmd ExtractCommand) Run(args []string) error {
 		return util.ChainError(err, "error loading config")
 	}
 
-	input := filepath.Join(cfg.MinecraftDataPath, LANG_PATH)
+	input := filepath.Join(cfg.MinecraftData, LANG_PATH)
 	output := cfg.JoinRoot(RAW_ITEM_LIST)
 
 	os.MkdirAll(filepath.Dir(output), 0700)

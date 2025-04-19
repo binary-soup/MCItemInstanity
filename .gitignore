@@ -1,5 +1,10 @@
 .vscode
+
 datapack/zip.sh
 datapack/item_insanity.zip
+
+data/datapack/*
+!data/datapack/.gitkeep
+
 config.json
 item_insanity

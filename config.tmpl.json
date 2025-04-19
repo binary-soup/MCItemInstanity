@@ -1,3 +1,5 @@
 {
-    "minecraft_data_path": "Path to the extracted Minecraft data jar"
+    "minecraft_data": "Path to the extracted Minecraft data jar",
+    "static_data": "Path to the static build files",
+    "datapack": "Output path for the created datapack"
 }

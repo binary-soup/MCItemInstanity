@@ -1,0 +1,12 @@
+{
+    "parent": "root",
+    "display": {
+        "item": "white_dye",
+        "title": "Dyeing to Get Started!",
+        "frame": "goal"
+    },
+    "items": [
+        "white_dye",
+        "black_dye"
+    ]
+}
