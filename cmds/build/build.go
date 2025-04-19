@@ -3,11 +3,9 @@ package build_cmd
 import (
 	"item_insanity/cmds/build/data"
 	"item_insanity/cmds/build/writers"
-	"item_insanity/config"
 	"os"
 	"path/filepath"
 
-	"github.com/binary-soup/go-command/command"
 	"github.com/binary-soup/go-command/style"
 	"github.com/binary-soup/go-command/util"
 )
@@ -17,28 +15,8 @@ const (
 	ROOT_FILE = "root.json"
 )
 
-type BuildCommand struct {
-	command.CommandBase
-	cfg *config.Config
-}
-
-func NewBuildCommand() BuildCommand {
-	return BuildCommand{
-		CommandBase: command.NewCommandBase("build", "build the datapack"),
-	}
-}
-
-func (cmd BuildCommand) Run(args []string) error {
-	//TODO: add clean flag to delete datapack
-
-	var err error
-
-	cmd.cfg, err = config.Load()
-	if err != nil {
-		return util.ChainError(err, "error loading config")
-	}
-
-	err = cmd.buildPack()
+func (cmd BuildCommand) runBuild() error {
+	err := cmd.buildPack()
 	if err != nil {
 		return err
 	}
