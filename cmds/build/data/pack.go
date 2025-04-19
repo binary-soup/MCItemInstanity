@@ -4,6 +4,7 @@ import "github.com/binary-soup/go-command/util"
 
 type Pack struct {
 	Description string `json:"description"`
+	Version     string `json:"version"`
 	Root        Info   `json:"root"`
 }
 

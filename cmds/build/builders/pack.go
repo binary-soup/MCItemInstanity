@@ -1,9 +1,12 @@
 package builders
 
-import "item_insanity/cmds/build/data"
+import (
+	"fmt"
+	"item_insanity/cmds/build/data"
+)
 
 const (
-	PACK_FORMAT = 48
+	PACK_FORMAT = 71 //1.21.5
 )
 
 type MCMeta struct {
@@ -15,7 +18,7 @@ type PackBuilder struct{}
 func (PackBuilder) BuildMeta(pack *data.Pack) MCMeta {
 	return MCMeta{
 		Pack: map[string]any{
-			"description": pack.Description,
+			"description": fmt.Sprintf("[%s] %s", pack.Version, pack.Description),
 			"pack_format": PACK_FORMAT,
 		},
 	}

@@ -1,5 +1,6 @@
 {
-    "description": "Adds advancements for collecting every item in the game.",
+    "description": "Advancements and Functions for tracking item collection",
+    "version": "v1.21.5-r0",
     "root": {
         "display": {
             "item": "chest",
