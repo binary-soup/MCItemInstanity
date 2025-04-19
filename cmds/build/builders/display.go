@@ -1,6 +1,7 @@
 package builders
 
 const (
+	COLOR_WHITE        = "white"
 	COLOR_YELLOW       = "yellow"
 	COLOR_LIGHT_PURPLE = "light_purple"
 	COLOR_GOLD         = "gold"
@@ -9,7 +10,7 @@ const (
 type Display struct {
 	Icon        map[string]string `json:"icon"`
 	Title       string            `json:"title"`
-	Description ColoredText       `json:"description"`
+	Description []ColoredText     `json:"description"`
 	Background  string            `json:"background,omitempty"`
 }
 

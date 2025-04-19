@@ -13,7 +13,7 @@ func (b CollectBuilder) BuildCollect(dir string, data *data.Collect) Advancement
 
 	return Advancement{
 		Parent:       b.buildParent(dir, data.Parent),
-		Display:      b.buildDisplay(data.Display),
+		Display:      b.buildDisplay(data),
 		Criteria:     criteria,
 		Requirements: requirements,
 	}
@@ -23,31 +23,42 @@ func (b CollectBuilder) buildParent(dir, parent string) string {
 	return fmt.Sprintf("%s:%s", PACK_NAMESPACE, filepath.Join(dir, parent))
 }
 
-func (b CollectBuilder) buildDisplay(data data.CollectDisplay) AdvancementDisplay {
+func (b CollectBuilder) buildDisplay(data *data.Collect) AdvancementDisplay {
 	builder := DisplayBuilder{}
 
 	return AdvancementDisplay{
 		Display: Display{
-			Icon:  builder.BuildIcon(data.Item),
-			Title: data.Title,
-			//TODO: add description builder using name and items
-			Description: builder.BuildText("TODO", b.chooseDescriptionColor(data.Frame)),
+			Icon:        builder.BuildIcon(data.Display.Item),
+			Title:       data.Display.Title,
+			Description: b.buildDescription(data),
 		},
-		Frame:          data.Frame,
+		Frame:          data.Display.Frame,
 		ShowToast:      true,
 		AnnounceToChat: true,
 	}
 }
 
-func (CollectBuilder) chooseDescriptionColor(frame string) string {
-	switch frame {
-	case FRAME_GOAL:
-		return COLOR_YELLOW
-	case FRAME_CHALLENGE:
-		return COLOR_LIGHT_PURPLE
+func (b CollectBuilder) buildDescription(data *data.Collect) []ColoredText {
+	desc := make([]ColoredText, 1+len(data.Items))
+	builder := DisplayBuilder{}
+
+	// header
+	desc[0] = builder.BuildText(fmt.Sprintf("All the %s\n\n", idToUpperSpaced(data.Name)), b.frameColor(data.Display.Frame))
+
+	for i, item := range data.Items {
+		desc[i+1] = builder.BuildText(fmt.Sprintf("- %s\n", idToLowerSpaced(item)), COLOR_WHITE)
 	}
 
-	return COLOR_YELLOW
+	return desc
+}
+
+func (CollectBuilder) frameColor(frame string) string {
+	switch frame {
+	case FRAME_CHALLENGE:
+		return COLOR_LIGHT_PURPLE
+	default:
+		return COLOR_YELLOW
+	}
 }
 
 func (CollectBuilder) buildCriteria(items []string) (map[string]any, [][]string) {

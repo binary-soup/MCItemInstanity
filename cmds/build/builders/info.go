@@ -12,7 +12,7 @@ func (InfoBuilder) Build(info *data.Info) Advancement {
 			Display: Display{
 				Icon:        builder.BuildIcon(info.Display.Item),
 				Title:       info.Display.Title,
-				Description: builder.BuildText(info.Display.Description, COLOR_GOLD),
+				Description: []ColoredText{builder.BuildText(info.Display.Description, COLOR_GOLD)},
 				Background:  builder.BuildBackground(info.Display.Background),
 			},
 			Frame:          FRAME_TASK,
