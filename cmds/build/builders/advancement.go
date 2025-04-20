@@ -1,5 +1,10 @@
 package builders
 
+import (
+	"fmt"
+	"path/filepath"
+)
+
 const (
 	AUTO_TRIGGER         = "minecraft:tick"
 	COLLECT_ITEM_TRIGGER = "minecraft:inventory_changed"
@@ -26,11 +31,15 @@ type AdvancementCriteria struct {
 
 type AdvancementBuilder struct{}
 
-func (b AdvancementBuilder) BuildCriteria(item string, trigger string) AdvancementCriteria {
+func (AdvancementBuilder) BuildCriteria(item string, trigger string) AdvancementCriteria {
 	return AdvancementCriteria{
 		Conditions: map[string]any{
 			"items": []map[string]string{{"items": joinNamespace(MINECRAFT_NAMESPACE, item)}},
 		},
 		Trigger: trigger,
 	}
+}
+
+func (AdvancementBuilder) BuildParent(dir, parent string) string {
+	return fmt.Sprintf("%s:%s", PACK_NAMESPACE, filepath.Join(dir, parent))
 }

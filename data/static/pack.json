@@ -11,9 +11,15 @@
     },
     "author": {
         "creator": "binary_soup",
-        "socials": {
-            "github": "github.com/binary-soup",
-            "youtube": "youtube.com/@binary-soup"
-        }
+        "socials": [
+            {
+                "handle": "github.com/binary-soup",
+                "color": "aqua"
+            },
+            {
+                "handle": "youtube.com/@binary-soup",
+                "color": "red"
+            }
+        ]
     }
 }

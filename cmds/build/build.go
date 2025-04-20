@@ -42,12 +42,17 @@ func (cmd BuildCommand) buildPack() error {
 		return util.ChainError(err, "error building mcmeta")
 	}
 
-	err = writers.AdvancementWriter{}.WriteInfo(cmd.cfg, &pack.Root, ROOT_FILE)
+	writer := writers.PackWriter{}
+
+	err = writer.WriteRoot(cmd.cfg, pack)
 	if err != nil {
 		return util.ChainError(err, "error building pack root advancement")
 	}
 
-	//TODO: build Author info
+	err = writer.WriteAuthor(cmd.cfg, pack)
+	if err != nil {
+		return util.ChainError(err, "error building pack author advancement")
+	}
 
 	return nil
 }
@@ -103,7 +108,7 @@ func (cmd BuildCommand) buildRootAdvancement(src, out string) error {
 		return err
 	}
 
-	err = writers.AdvancementWriter{}.WriteInfo(cmd.cfg, root, out)
+	err = writers.AdvancementWriter{}.WriteRoot(cmd.cfg, root, out)
 	if err != nil {
 		return util.ChainError(err, "error building root advancement")
 	}
@@ -117,7 +122,7 @@ func (cmd BuildCommand) buildCollectAdvancement(src, out string) error {
 		return err
 	}
 
-	err = writers.AdvancementWriter{}.WriteCollect(cmd.cfg, collect, out)
+	err = writers.CollectWriter{}.WriteCollect(cmd.cfg, collect, out)
 	if err != nil {
 		return util.ChainError(err, "error building collect advancement")
 	}

@@ -3,7 +3,7 @@ package builders
 import (
 	"fmt"
 	"item_insanity/cmds/build/data"
-	"path/filepath"
+	"strings"
 )
 
 type CollectBuilder struct{}
@@ -12,15 +12,11 @@ func (b CollectBuilder) BuildCollect(dir string, data *data.Collect) Advancement
 	criteria, requirements := b.buildCriteria(data.Items)
 
 	return Advancement{
-		Parent:       b.buildParent(dir, data.Parent),
+		Parent:       AdvancementBuilder{}.BuildParent(dir, data.Parent),
 		Display:      b.buildDisplay(data),
 		Criteria:     criteria,
 		Requirements: requirements,
 	}
-}
-
-func (b CollectBuilder) buildParent(dir, parent string) string {
-	return fmt.Sprintf("%s:%s", PACK_NAMESPACE, filepath.Join(dir, parent))
 }
 
 func (b CollectBuilder) buildDisplay(data *data.Collect) AdvancementDisplay {
@@ -49,6 +45,7 @@ func (b CollectBuilder) buildDescription(data *data.Collect) []ColoredText {
 		desc[i+1] = builder.BuildText(fmt.Sprintf("- %s\n", idToLowerSpaced(item)), COLOR_WHITE)
 	}
 
+	desc[len(desc)-1].Text = strings.TrimSuffix(desc[len(desc)-1].Text, "\n")
 	return desc
 }
 
