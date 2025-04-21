@@ -1,8 +1,6 @@
 package extract_cmd
 
 import (
-	"fmt"
-	"io"
 	"regexp"
 )
 
@@ -25,8 +23,4 @@ func (i *Item) Parse(raw string) bool {
 	i.Name = matches[3]
 
 	return true
-}
-
-func (i *Item) Write(w io.Writer) {
-	fmt.Fprintf(w, "minecraft:%-40s| [%s] \"%s\"\n", i.ID, i.Type, i.Name)
 }

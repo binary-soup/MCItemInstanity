@@ -11,11 +11,14 @@ import (
 	"github.com/binary-soup/go-command/util"
 )
 
-const LANG_PATH = "assets/minecraft/lang/en_us.json"
-const RAW_ITEM_LIST = "data/items/raw_item_list.txt"
+const (
+	LANG_PATH  = "assets/minecraft/lang/en_us.json"
+	ITEMS_PATH = "data/items"
+)
 
 type ExtractCommand struct {
 	command.CommandBase
+	cfg *config.Config
 }
 
 func NewExtractCommand() ExtractCommand {
@@ -25,43 +28,38 @@ func NewExtractCommand() ExtractCommand {
 }
 
 func (cmd ExtractCommand) Run(args []string) error {
-	cfg, err := config.Load()
+	var err error
+
+	cmd.cfg, err = config.Load()
 	if err != nil {
 		return util.ChainError(err, "error loading config")
 	}
 
-	input := filepath.Join(cfg.MinecraftData, LANG_PATH)
-	output := cfg.JoinRoot(RAW_ITEM_LIST)
-
-	os.MkdirAll(filepath.Dir(output), 0700)
-
-	err = extractIds(input, output)
+	items, err := cmd.extractItems()
 	if err != nil {
 		return util.ChainError(err, "error extracting ids")
+	}
+
+	err = cmd.writeTable(items)
+	if err != nil {
+		return util.ChainError(err, "error writing table")
 	}
 
 	return nil
 }
 
-func extractIds(input, output string) error {
-	inFile, err := os.Open(input)
+func (cmd ExtractCommand) extractItems() ([]Item, error) {
+	lang, err := os.Open(filepath.Join(cmd.cfg.MinecraftData, LANG_PATH))
 	if err != nil {
-		return util.ChainError(err, "error opening input file")
+		return nil, util.ChainError(err, "error opening minecraft lang file")
 	}
-	defer inFile.Close()
+	defer lang.Close()
 
-	outFile, err := os.Create(output)
-	if err != nil {
-		return util.ChainError(err, "error creating output file")
-	}
-	defer outFile.Close()
-
-	style.BoldCreate.PrintF("+ %s\n", output)
-
-	count := 0
+	items := []Item{}
+	duplicates := map[string]uint8{}
 	filtered := 0
 
-	scanner := bufio.NewScanner(inFile)
+	scanner := bufio.NewScanner(lang)
 	for scanner.Scan() {
 		item := Item{}
 
@@ -69,17 +67,35 @@ func extractIds(input, output string) error {
 			continue
 		}
 
-		if item.Filter() {
+		count, ok := duplicates[item.ID]
+		if ok {
+			duplicates[item.ID] = count + 1
 			filtered++
 			continue
 		}
 
-		count++
-		item.Write(outFile)
+		duplicates[item.ID] = 1
+		items = append(items, item)
 	}
 
-	style.Create.PrintF("Count: %d\n", count)
-	style.Delete.PrintF("Filtered: %d\n", filtered)
+	style.Info.PrintF("+ %d items extracted\n", len(items))
+	style.Delete.PrintF("- %d duplicates filtered\n", filtered)
+
+	return items, nil
+}
+
+func (cmd ExtractCommand) writeTable(items []Item) error {
+	table := ItemTableWriter{}
+
+	err := table.OpenFile(cmd.cfg.JoinRoot(ITEMS_PATH))
+	if err != nil {
+		return err
+	}
+	defer table.CloseFile()
+
+	for _, item := range items {
+		table.WriteItem(item)
+	}
 
 	return nil
 }
