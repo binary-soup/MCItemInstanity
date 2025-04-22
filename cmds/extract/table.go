@@ -3,39 +3,30 @@ package extract_cmd
 import (
 	"fmt"
 	"os"
-	"path/filepath"
-
-	"github.com/binary-soup/go-command/style"
-	"github.com/binary-soup/go-command/util"
 )
 
-const ITEM_TABLE_FILE = "item_table.md"
-
 type ItemTableWriter struct {
-	file *os.File
+	File *os.File
 }
 
-func (w *ItemTableWriter) OpenFile(path string) error {
-	var err error
-	fullPath := filepath.Join(path, ITEM_TABLE_FILE)
+func (w ItemTableWriter) WriteHeader(header string) {
+	fmt.Fprintf(w.File, "## %s\n", header)
+}
 
-	w.file, err = os.Create(fullPath)
-	if err != nil {
-		return util.ChainError(err, "error creating item table file")
+func (w ItemTableWriter) WriteTable(items ItemMap, ids []string) {
+	w.WriteTableHeader()
+
+	for _, id := range ids {
+		w.WriteItem(items[id])
 	}
 
-	style.Create.PrintF("+ %s\n", fullPath)
-
-	// write header
-	fmt.Fprint(w.file, "| ID | Type | Name |\n|---|:---:|---|\n")
-
-	return nil
+	fmt.Fprintln(w.File)
 }
 
-func (w ItemTableWriter) CloseFile() {
-	w.file.Close()
+func (w ItemTableWriter) WriteTableHeader() {
+	fmt.Fprint(w.File, "| ID | Type | Name |\n|---|:---:|---|\n")
 }
 
 func (w ItemTableWriter) WriteItem(item Item) {
-	fmt.Fprintf(w.file, "| %s | [%s] | \"%s\" |\n", item.ID, item.Type, item.Name)
+	fmt.Fprintf(w.File, "| %s | [%s] | \"%s\" |\n", item.ID, item.Type, item.Name)
 }

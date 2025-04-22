@@ -4,6 +4,9 @@ import (
 	"regexp"
 )
 
+type ItemIdSet map[string]struct{}
+type ItemMap map[string]Item
+
 var ITEM_REGEX = regexp.MustCompile(`^\s*"(block|item)\.minecraft\.(\w+)":\s+"(.+)",?$`)
 
 type Item struct {

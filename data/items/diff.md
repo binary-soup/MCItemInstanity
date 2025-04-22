@@ -1,3 +1,4 @@
+## Not (yet) Included
 | ID | Type | Name |
 |---|:---:|---|
 | acacia_button | [block] | "Acacia Button" |
@@ -18,7 +19,6 @@
 | acacia_wall_sign | [block] | "Acacia Wall Sign" |
 | acacia_wood | [block] | "Acacia Wood" |
 | activator_rail | [block] | "Activator Rail" |
-| air | [block] | "Air" |
 | allium | [block] | "Allium" |
 | amethyst_block | [block] | "Block of Amethyst" |
 | amethyst_cluster | [block] | "Amethyst Cluster" |
@@ -53,7 +53,6 @@
 | bamboo_wall_hanging_sign | [block] | "Bamboo Wall Hanging Sign" |
 | bamboo_wall_sign | [block] | "Bamboo Wall Sign" |
 | barrel | [block] | "Barrel" |
-| barrier | [block] | "Barrier" |
 | basalt | [block] | "Basalt" |
 | beacon | [block] | "Beacon" |
 | bedrock | [block] | "Bedrock" |
@@ -1563,3 +1562,8 @@
 | zombie_spawn_egg | [item] | "Zombie Spawn Egg" |
 | zombie_villager_spawn_egg | [item] | "Zombie Villager Spawn Egg" |
 | zombified_piglin_spawn_egg | [item] | "Zombified Piglin Spawn Egg" |
+## Excluded
+| ID | Type | Name |
+|---|:---:|---|
+| air | [block] | "Air" |
+| barrier | [block] | "Barrier" |

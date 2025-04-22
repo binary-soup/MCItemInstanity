@@ -2,45 +2,27 @@ package extract_cmd
 
 import (
 	"bufio"
-	"item_insanity/config"
+	"fmt"
 	"os"
 	"path/filepath"
 
-	"github.com/binary-soup/go-command/command"
 	"github.com/binary-soup/go-command/style"
 	"github.com/binary-soup/go-command/util"
 )
 
 const (
-	LANG_PATH  = "assets/minecraft/lang/en_us.json"
-	ITEMS_PATH = "data/items"
+	LANG_PATH      = "assets/minecraft/lang/en_us.json"
+	ITEMS_PATH     = "data/items"
+	RAW_ITEMS_FILE = "raw.md"
 )
 
-type ExtractCommand struct {
-	command.CommandBase
-	cfg *config.Config
-}
-
-func NewExtractCommand() ExtractCommand {
-	return ExtractCommand{
-		CommandBase: command.NewCommandBase("extract", "extract all item ids from Minecraft's data files"),
-	}
-}
-
-func (cmd ExtractCommand) Run(args []string) error {
-	var err error
-
-	cmd.cfg, err = config.Load()
+func (cmd ExtractCommand) runExtract() error {
+	ids, items, err := cmd.extractItems(true)
 	if err != nil {
-		return util.ChainError(err, "error loading config")
+		return util.ChainError(err, "error extracting items")
 	}
 
-	items, err := cmd.extractItems()
-	if err != nil {
-		return util.ChainError(err, "error extracting ids")
-	}
-
-	err = cmd.writeTable(items)
+	err = cmd.writeRawItemTable(ids, items)
 	if err != nil {
 		return util.ChainError(err, "error writing table")
 	}
@@ -48,16 +30,16 @@ func (cmd ExtractCommand) Run(args []string) error {
 	return nil
 }
 
-func (cmd ExtractCommand) extractItems() ([]Item, error) {
+func (cmd ExtractCommand) extractItems(verbose bool) ([]string, ItemMap, error) {
 	lang, err := os.Open(filepath.Join(cmd.cfg.MinecraftData, LANG_PATH))
 	if err != nil {
-		return nil, util.ChainError(err, "error opening minecraft lang file")
+		return nil, nil, util.ChainError(err, "error opening minecraft lang file")
 	}
 	defer lang.Close()
 
-	items := []Item{}
-	duplicates := map[string]uint8{}
-	filtered := 0
+	ids := []string{}
+	items := ItemMap{}
+	duplicates := 0
 
 	scanner := bufio.NewScanner(lang)
 	for scanner.Scan() {
@@ -67,35 +49,42 @@ func (cmd ExtractCommand) extractItems() ([]Item, error) {
 			continue
 		}
 
-		count, ok := duplicates[item.ID]
+		_, ok := items[item.ID]
 		if ok {
-			duplicates[item.ID] = count + 1
-			filtered++
+			duplicates++
 			continue
 		}
 
-		duplicates[item.ID] = 1
-		items = append(items, item)
+		items[item.ID] = item
+		ids = append(ids, item.ID)
 	}
 
-	style.Info.PrintF("+ %d items extracted\n", len(items))
-	style.Delete.PrintF("- %d duplicates filtered\n", filtered)
+	if verbose {
+		style.Create.PrintF("+ %d item(s) extracted\n", len(items))
+		style.Delete.PrintF("- %d duplicate(s) filtered\n", duplicates)
+	}
 
-	return items, nil
+	return ids, items, nil
 }
 
-func (cmd ExtractCommand) writeTable(items []Item) error {
-	table := ItemTableWriter{}
+func (cmd ExtractCommand) writeRawItemTable(ids []string, items ItemMap) error {
+	path := cmd.cfg.JoinRoot(ITEMS_PATH, RAW_ITEMS_FILE)
 
-	err := table.OpenFile(cmd.cfg.JoinRoot(ITEMS_PATH))
+	file, err := os.Create(path)
 	if err != nil {
-		return err
+		return util.ChainError(err, "error creating raw item table file")
 	}
-	defer table.CloseFile()
+	defer file.Close()
 
-	for _, item := range items {
-		table.WriteItem(item)
+	style.BoldCreate.PrintF("+ %s\n", path)
+
+	table := ItemTableWriter{
+		File: file,
 	}
 
+	table.WriteHeader("Raw Item List")
+	table.WriteTable(items, ids)
+
+	fmt.Fprintln(file)
 	return nil
 }
