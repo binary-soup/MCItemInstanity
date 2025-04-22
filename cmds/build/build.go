@@ -3,7 +3,8 @@ package build_cmd
 import (
 	"item_insanity/cmds/build/data"
 	"item_insanity/cmds/build/writers"
-	"os"
+	"item_insanity/common"
+	"item_insanity/config"
 	"path/filepath"
 
 	"github.com/binary-soup/go-command/style"
@@ -12,8 +13,48 @@ import (
 
 const (
 	PACK_FILE = "pack.json"
-	ROOT_FILE = "root.json"
 )
+
+type buildVisitor struct {
+	cfg *config.Config
+}
+
+func (v buildVisitor) ParseDirectory(_, dir string) error {
+	style.Bolded.Println(dir)
+	return nil
+}
+
+func (v buildVisitor) ParseRoot(path, dir, file string) error {
+	root, err := data.LoadRootJSON(filepath.Join(path, dir, file))
+	if err != nil {
+		return err
+	}
+
+	err = writers.AdvancementWriter{}.WriteRoot(v.cfg, root, filepath.Join(dir, file))
+	if err != nil {
+		return util.ChainError(err, "error building root advancement")
+	}
+
+	return nil
+}
+
+func (v buildVisitor) ParseAll(path, dir, file string) error {
+	return nil
+}
+
+func (v buildVisitor) ParseCollect(path, dir, file string) error {
+	collect, err := data.LoadCollectJSON(filepath.Join(path, dir, file))
+	if err != nil {
+		return err
+	}
+
+	err = writers.CollectWriter{}.WriteCollect(v.cfg, collect, filepath.Join(dir, file))
+	if err != nil {
+		return util.ChainError(err, "error building collect advancement")
+	}
+
+	return nil
+}
 
 func (cmd BuildCommand) runBuild() error {
 	err := cmd.buildPack()
@@ -21,7 +62,7 @@ func (cmd BuildCommand) runBuild() error {
 		return err
 	}
 
-	err = cmd.buildCollectAdvancements("", cmd.cfg.StaticDataPath())
+	err = cmd.buildCollectAdvancements(cmd.cfg.StaticDataPath(), "tree")
 	if err != nil {
 		return err
 	}
@@ -57,75 +98,13 @@ func (cmd BuildCommand) buildPack() error {
 	return nil
 }
 
-func (cmd BuildCommand) buildCollectAdvancements(dir, path string) error {
-	if dir != "" {
-		style.Bolded.PrintF("advancements/%s\n", dir)
+func (cmd BuildCommand) buildCollectAdvancements(path, dir string) error {
+	parser := common.TreeParser{
+		Visitor: buildVisitor{
+			cfg: cmd.cfg,
+		},
+		TraverseOrder: common.TRAVERSE_BREADTH,
 	}
 
-	entires, err := os.ReadDir(path)
-	if err != nil {
-		return util.ChainError(err, "error reading directory")
-	}
-
-	subDirs := []string{}
-
-	for _, entry := range entires {
-		if entry.IsDir() {
-			subDirs = append(subDirs, entry.Name())
-			continue
-		}
-
-		inFile := filepath.Join(path, entry.Name())
-		outFile := filepath.Join(dir, entry.Name())
-
-		switch entry.Name() {
-		case PACK_FILE:
-			continue
-		case ROOT_FILE:
-			err = cmd.buildRootAdvancement(inFile, outFile)
-		default:
-			err = cmd.buildCollectAdvancement(inFile, outFile)
-		}
-
-		if err != nil {
-			return err
-		}
-	}
-
-	for _, subDir := range subDirs {
-		err = cmd.buildCollectAdvancements(filepath.Join(dir, subDir), filepath.Join(path, subDir))
-		if err != nil {
-			return err
-		}
-	}
-
-	return nil
-}
-
-func (cmd BuildCommand) buildRootAdvancement(src, out string) error {
-	root, err := data.LoadRootJSON(src)
-	if err != nil {
-		return err
-	}
-
-	err = writers.AdvancementWriter{}.WriteRoot(cmd.cfg, root, out)
-	if err != nil {
-		return util.ChainError(err, "error building root advancement")
-	}
-
-	return nil
-}
-
-func (cmd BuildCommand) buildCollectAdvancement(src, out string) error {
-	collect, err := data.LoadCollectJSON(src)
-	if err != nil {
-		return err
-	}
-
-	err = writers.CollectWriter{}.WriteCollect(cmd.cfg, collect, out)
-	if err != nil {
-		return util.ChainError(err, "error building collect advancement")
-	}
-
-	return nil
+	return parser.Parse(path, dir)
 }
