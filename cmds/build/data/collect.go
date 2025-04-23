@@ -15,9 +15,10 @@ type Collect struct {
 }
 
 type CollectDisplay struct {
-	Item  string `json:"item"`
-	Title string `json:"title"`
-	Frame string `json:"frame"`
+	Item        string `json:"item"`
+	Title       string `json:"title"`
+	Description string `json:"description"`
+	Frame       string `json:"frame"`
 }
 
 func LoadCollectJSON(path string) (*Collect, error) {

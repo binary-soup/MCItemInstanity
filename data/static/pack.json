@@ -4,7 +4,7 @@
     "root": {
         "display": {
             "item": "chest",
-            "title": "About",
+            "title": "Item Insanity",
             "description": "Collect every item in the game!",
             "background": "block/cobblestone"
         }

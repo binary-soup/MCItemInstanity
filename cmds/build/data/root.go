@@ -17,7 +17,7 @@ func LoadRootJSON(path string) (*Info, error) {
 	}
 
 	info.Name = "root"
-	info.Display.Title = buildRootTitle(info.Display.Title)
+	//info.Display.Title = buildRootTitle(info.Display.Title)
 
 	return info, nil
 }

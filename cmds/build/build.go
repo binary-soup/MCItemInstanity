@@ -1,6 +1,7 @@
 package build_cmd
 
 import (
+	"item_insanity/cmds/build/builders"
 	"item_insanity/cmds/build/data"
 	"item_insanity/cmds/build/writers"
 	"item_insanity/common"
@@ -38,10 +39,6 @@ func (v buildVisitor) ParseRoot(path, dir, file string) error {
 	return nil
 }
 
-func (v buildVisitor) ParseAll(path, dir, file string) error {
-	return nil
-}
-
 func (v buildVisitor) ParseCollect(path, dir, file string) error {
 	collect, err := data.LoadCollectJSON(filepath.Join(path, dir, file))
 	if err != nil {
@@ -51,6 +48,42 @@ func (v buildVisitor) ParseCollect(path, dir, file string) error {
 	err = writers.CollectWriter{}.WriteCollect(v.cfg, collect, filepath.Join(dir, file))
 	if err != nil {
 		return util.ChainError(err, "error building collect advancement")
+	}
+
+	return nil
+}
+
+func (v buildVisitor) ParseAll(path, dir, file string) error {
+	all, err := data.LoadCollectAllJSON(filepath.Join(path, dir, file))
+	if err != nil {
+		return err
+	}
+
+	visitor := common.NewInventoryVisitor()
+	parser := common.TreeParser{
+		Visitor: &visitor,
+	}
+
+	err = parser.Parse(path, dir)
+	if err != nil {
+		return util.ChainError(err, "error parsing collect tree")
+	}
+
+	collect := data.Collect{
+		Name:   all.Display.Group,
+		Parent: "root",
+		Display: data.CollectDisplay{
+			Item:        all.Display.Item,
+			Title:       all.Display.Title,
+			Description: all.Display.Description,
+			Frame:       builders.FRAME_CHALLENGE,
+		},
+		Items: visitor.Ids,
+	}
+
+	err = writers.CollectWriter{}.WriteCollect(v.cfg, &collect, filepath.Join(dir, file))
+	if err != nil {
+		return util.ChainError(err, "error building collect all advancement")
 	}
 
 	return nil
@@ -103,7 +136,6 @@ func (cmd BuildCommand) buildCollectAdvancements(path, dir string) error {
 		Visitor: buildVisitor{
 			cfg: cmd.cfg,
 		},
-		TraverseOrder: common.TRAVERSE_BREADTH,
 	}
 
 	return parser.Parse(path, dir)

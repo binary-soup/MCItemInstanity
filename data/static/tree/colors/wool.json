@@ -1,0 +1,13 @@
+{
+    "parent": "dyes",
+    "display": {
+        "item": "orange_wool",
+        "title": "Beep Beep I'm a Sheep",
+        "description": "every color wool",
+        "frame": "goal"
+    },
+    "items": [
+        "orange_wool",
+        "green_wool"
+    ]
+}

@@ -26,7 +26,7 @@ func LoadPackJSON(path string) (*Pack, error) {
 	}
 
 	pack.Root.Name = "root"
-	pack.Root.Display.Title = buildRootTitle(pack.Root.Display.Title)
+	//pack.Root.Display.Title = buildRootTitle(pack.Root.Display.Title)
 
 	return pack, nil
 }

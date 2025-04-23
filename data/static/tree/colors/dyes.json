@@ -1,12 +1,27 @@
 {
     "parent": "root",
     "display": {
-        "item": "white_dye",
-        "title": "Dyeing to Get Started!",
+        "item": "red_dye",
+        "title": "Dyeing to Get Started",
+        "description": "every color of dye",
         "frame": "goal"
     },
     "items": [
         "white_dye",
-        "black_dye"
+        "light_gray_dye",
+        "gray_dye",
+        "black_dye",
+        "brown_dye",
+        "red_dye",
+        "orange_dye",
+        "yellow_dye",
+        "lime_dye",
+        "green_dye",
+        "cyan_dye",
+        "light_blue_dye",
+        "blue_dye",
+        "purple_dye",
+        "magenta_dye",
+        "pink_dye"
     ]
 }

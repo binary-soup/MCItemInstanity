@@ -3,7 +3,6 @@ package builders
 import (
 	"fmt"
 	"item_insanity/cmds/build/data"
-	"strings"
 )
 
 type CollectBuilder struct{}
@@ -35,18 +34,12 @@ func (b CollectBuilder) buildDisplay(data *data.Collect) AdvancementDisplay {
 }
 
 func (b CollectBuilder) buildDescription(data *data.Collect) []ColoredText {
-	desc := make([]ColoredText, 1+len(data.Items))
 	builder := DisplayBuilder{}
 
-	// header
-	desc[0] = builder.BuildText(fmt.Sprintf("All the %s\n\n", idToUpperSpaced(data.Name)), b.frameColor(data.Display.Frame))
-
-	for i, item := range data.Items {
-		desc[i+1] = builder.BuildText(fmt.Sprintf("- %s\n", idToLowerSpaced(item)), COLOR_WHITE)
+	return []ColoredText{
+		builder.BuildText(fmt.Sprintf("All the %s\n", idToUpperSpaced(data.Name)), b.frameColor(data.Display.Frame)),
+		builder.BuildText(fmt.Sprintf("|- %s", data.Display.Description), COLOR_WHITE),
 	}
-
-	desc[len(desc)-1].Text = strings.TrimSuffix(desc[len(desc)-1].Text, "\n")
-	return desc
 }
 
 func (CollectBuilder) frameColor(frame string) string {

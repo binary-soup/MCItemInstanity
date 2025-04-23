@@ -1,0 +1,13 @@
+{
+    "parent": "wool",
+    "display": {
+        "item": "blue_bed",
+        "title": "Beep Beep I Need to Sleep",
+        "description": "every color of bed",
+        "frame": "goal"
+    },
+    "items": [
+        "blue_bed",
+        "purple_bed"
+    ]
+}

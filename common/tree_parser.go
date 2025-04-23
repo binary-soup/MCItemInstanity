@@ -8,9 +8,6 @@ import (
 )
 
 const (
-	TRAVERSE_DEPTH   = 0
-	TRAVERSE_BREADTH = 1
-
 	ROOT_FILE = "root.json"
 	ALL_FILE  = "all.json"
 )
@@ -23,8 +20,7 @@ type TreeVisitor interface {
 }
 
 type TreeParser struct {
-	Visitor       TreeVisitor
-	TraverseOrder int
+	Visitor TreeVisitor
 }
 
 func (p TreeParser) Parse(path, dir string) error {
@@ -44,26 +40,16 @@ func (p TreeParser) Parse(path, dir string) error {
 		}
 	}
 
-	if p.TraverseOrder == TRAVERSE_DEPTH {
-		err = p.parseSubDirectories(path, dirs)
-		if err != nil {
-			return err
-		}
+	// breath-first traversal
 
-		err = p.parseFiles(path, dir, files)
-		if err != nil {
-			return err
-		}
-	} else { //TRAVERSE_BREADTH
-		err = p.parseFiles(path, dir, files)
-		if err != nil {
-			return err
-		}
+	err = p.parseFiles(path, dir, files)
+	if err != nil {
+		return err
+	}
 
-		err = p.parseSubDirectories(path, dirs)
-		if err != nil {
-			return err
-		}
+	err = p.parseSubDirectories(path, dirs)
+	if err != nil {
+		return err
 	}
 
 	return nil
