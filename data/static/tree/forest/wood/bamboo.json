@@ -1,0 +1,28 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "bamboo_block",
+        "title": "Bamboo 2: Electric Boogaloo",
+        "frame": "goal"
+    },
+    "items": [
+        "bamboo_block",
+        "bamboo_button",
+        "bamboo_door",
+        "bamboo_fence",
+        "bamboo_fence_gate",
+        "bamboo_hanging_sign",
+        "bamboo_mosaic",
+        "bamboo_mosaic_slab",
+        "bamboo_mosaic_stairs",
+        "bamboo_planks",
+        "bamboo_pressure_plate",
+        "bamboo_sign",
+        "bamboo_slab",
+        "bamboo_stairs",
+        "bamboo_trapdoor",
+        "stripped_bamboo_block",
+        "bamboo_raft",
+        "bamboo_chest_raft"
+    ]
+}

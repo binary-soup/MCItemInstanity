@@ -1,0 +1,25 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "warped_stem",
+        "title": "Cool and Corrupted",
+        "frame": "goal"
+    },
+    "items": [
+        "warped_button",
+        "warped_door",
+        "warped_fence",
+        "warped_fence_gate",
+        "warped_hanging_sign",
+        "warped_stem",
+        "warped_planks",
+        "warped_pressure_plate",
+        "warped_sign",
+        "warped_slab",
+        "warped_stairs",
+        "warped_trapdoor",
+        "warped_hyphae",
+        "stripped_warped_stem",
+        "stripped_warped_hyphae"
+    ]
+}

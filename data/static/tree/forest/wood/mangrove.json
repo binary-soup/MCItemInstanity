@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "mangrove_log",
+        "title": "Basically It's Red",
+        "frame": "goal"
+    },
+    "items": [
+        "mangrove_button",
+        "mangrove_door",
+        "mangrove_fence",
+        "mangrove_fence_gate",
+        "mangrove_hanging_sign",
+        "mangrove_log",
+        "mangrove_planks",
+        "mangrove_pressure_plate",
+        "mangrove_sign",
+        "mangrove_slab",
+        "mangrove_stairs",
+        "mangrove_trapdoor",
+        "mangrove_wood",
+        "stripped_mangrove_log",
+        "stripped_mangrove_wood",
+        "mangrove_boat",
+        "mangrove_chest_boat"
+    ]
+}

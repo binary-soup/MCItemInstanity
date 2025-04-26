@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "cherry_log",
+        "title": "Basically It's Pink",
+        "frame": "goal"
+    },
+    "items": [
+        "cherry_button",
+        "cherry_door",
+        "cherry_fence",
+        "cherry_fence_gate",
+        "cherry_hanging_sign",
+        "cherry_log",
+        "cherry_planks",
+        "cherry_pressure_plate",
+        "cherry_sign",
+        "cherry_slab",
+        "cherry_stairs",
+        "cherry_trapdoor",
+        "cherry_wood",
+        "stripped_cherry_log",
+        "stripped_cherry_wood",
+        "cherry_boat",
+        "cherry_chest_boat"
+    ]
+}

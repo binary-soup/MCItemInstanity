@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "birch_log",
+        "title": "Son of a Bi*ch",
+        "frame": "goal"
+    },
+    "items": [
+        "birch_button",
+        "birch_door",
+        "birch_fence",
+        "birch_fence_gate",
+        "birch_hanging_sign",
+        "birch_log",
+        "birch_planks",
+        "birch_pressure_plate",
+        "birch_sign",
+        "birch_slab",
+        "birch_stairs",
+        "birch_trapdoor",
+        "birch_wood",
+        "stripped_birch_log",
+        "stripped_birch_wood",
+        "birch_boat",
+        "birch_chest_boat"
+    ]
+}

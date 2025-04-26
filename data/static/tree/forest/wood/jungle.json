@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "jungle_log",
+        "title": "George, George",
+        "frame": "goal"
+    },
+    "items": [
+        "jungle_button",
+        "jungle_door",
+        "jungle_fence",
+        "jungle_fence_gate",
+        "jungle_hanging_sign",
+        "jungle_log",
+        "jungle_planks",
+        "jungle_pressure_plate",
+        "jungle_sign",
+        "jungle_slab",
+        "jungle_stairs",
+        "jungle_trapdoor",
+        "jungle_wood",
+        "stripped_jungle_log",
+        "stripped_jungle_wood",
+        "jungle_boat",
+        "jungle_chest_boat"
+    ]
+}

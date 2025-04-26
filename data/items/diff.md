@@ -1,23 +1,8 @@
 ## Not (yet) Included
 | ID | Type | Name |
 |---|:---:|---|
-| acacia_button | [block] | "Acacia Button" |
-| acacia_door | [block] | "Acacia Door" |
-| acacia_fence | [block] | "Acacia Fence" |
-| acacia_fence_gate | [block] | "Acacia Fence Gate" |
-| acacia_hanging_sign | [block] | "Acacia Hanging Sign" |
 | acacia_leaves | [block] | "Acacia Leaves" |
-| acacia_log | [block] | "Acacia Log" |
-| acacia_planks | [block] | "Acacia Planks" |
-| acacia_pressure_plate | [block] | "Acacia Pressure Plate" |
 | acacia_sapling | [block] | "Acacia Sapling" |
-| acacia_sign | [block] | "Acacia Sign" |
-| acacia_slab | [block] | "Acacia Slab" |
-| acacia_stairs | [block] | "Acacia Stairs" |
-| acacia_trapdoor | [block] | "Acacia Trapdoor" |
-| acacia_wall_hanging_sign | [block] | "Acacia Wall Hanging Sign" |
-| acacia_wall_sign | [block] | "Acacia Wall Sign" |
-| acacia_wood | [block] | "Acacia Wood" |
 | activator_rail | [block] | "Activator Rail" |
 | allium | [block] | "Allium" |
 | amethyst_block | [block] | "Block of Amethyst" |
@@ -32,22 +17,6 @@
 | azalea_leaves | [block] | "Azalea Leaves" |
 | azure_bluet | [block] | "Azure Bluet" |
 | bamboo | [block] | "Bamboo" |
-| bamboo_block | [block] | "Block of Bamboo" |
-| bamboo_button | [block] | "Bamboo Button" |
-| bamboo_door | [block] | "Bamboo Door" |
-| bamboo_fence | [block] | "Bamboo Fence" |
-| bamboo_fence_gate | [block] | "Bamboo Fence Gate" |
-| bamboo_hanging_sign | [block] | "Bamboo Hanging Sign" |
-| bamboo_mosaic | [block] | "Bamboo Mosaic" |
-| bamboo_mosaic_slab | [block] | "Bamboo Mosaic Slab" |
-| bamboo_mosaic_stairs | [block] | "Bamboo Mosaic Stairs" |
-| bamboo_planks | [block] | "Bamboo Planks" |
-| bamboo_pressure_plate | [block] | "Bamboo Pressure Plate" |
-| bamboo_sapling | [block] | "Bamboo Shoot" |
-| bamboo_sign | [block] | "Bamboo Sign" |
-| bamboo_slab | [block] | "Bamboo Slab" |
-| bamboo_stairs | [block] | "Bamboo Stairs" |
-| bamboo_trapdoor | [block] | "Bamboo Trapdoor" |
 | bamboo_wall_hanging_sign | [block] | "Bamboo Wall Hanging Sign" |
 | bamboo_wall_sign | [block] | "Bamboo Wall Sign" |
 | barrel | [block] | "Barrel" |
@@ -58,23 +27,10 @@
 | beetroots | [block] | "Beetroots" |
 | bell | [block] | "Bell" |
 | big_dripleaf | [block] | "Big Dripleaf" |
-| birch_button | [block] | "Birch Button" |
-| birch_door | [block] | "Birch Door" |
-| birch_fence | [block] | "Birch Fence" |
-| birch_fence_gate | [block] | "Birch Fence Gate" |
-| birch_hanging_sign | [block] | "Birch Hanging Sign" |
 | birch_leaves | [block] | "Birch Leaves" |
-| birch_log | [block] | "Birch Log" |
-| birch_planks | [block] | "Birch Planks" |
-| birch_pressure_plate | [block] | "Birch Pressure Plate" |
 | birch_sapling | [block] | "Birch Sapling" |
-| birch_sign | [block] | "Birch Sign" |
-| birch_slab | [block] | "Birch Slab" |
-| birch_stairs | [block] | "Birch Stairs" |
-| birch_trapdoor | [block] | "Birch Trapdoor" |
 | birch_wall_hanging_sign | [block] | "Birch Wall Hanging Sign" |
 | birch_wall_sign | [block] | "Birch Wall Sign" |
-| birch_wood | [block] | "Birch Wood" |
 | black_banner | [block] | "Black Banner" |
 | black_bed | [block] | "Black Bed" |
 | black_candle | [block] | "Black Candle" |
@@ -152,23 +108,10 @@
 | cave_vines | [block] | "Cave Vines" |
 | cave_vines_plant | [block] | "Cave Vines Plant" |
 | chain | [block] | "Chain" |
-| cherry_button | [block] | "Cherry Button" |
-| cherry_door | [block] | "Cherry Door" |
-| cherry_fence | [block] | "Cherry Fence" |
-| cherry_fence_gate | [block] | "Cherry Fence Gate" |
-| cherry_hanging_sign | [block] | "Cherry Hanging Sign" |
 | cherry_leaves | [block] | "Cherry Leaves" |
-| cherry_log | [block] | "Cherry Log" |
-| cherry_planks | [block] | "Cherry Planks" |
-| cherry_pressure_plate | [block] | "Cherry Pressure Plate" |
 | cherry_sapling | [block] | "Cherry Sapling" |
-| cherry_sign | [block] | "Cherry Sign" |
-| cherry_slab | [block] | "Cherry Slab" |
-| cherry_stairs | [block] | "Cherry Stairs" |
-| cherry_trapdoor | [block] | "Cherry Trapdoor" |
 | cherry_wall_hanging_sign | [block] | "Cherry Wall Hanging Sign" |
 | cherry_wall_sign | [block] | "Cherry Wall Sign" |
-| cherry_wood | [block] | "Cherry Wood" |
 | chest | [block] | "Chest" |
 | chiseled_bookshelf | [block] | "Chiseled Bookshelf" |
 | chiseled_copper | [block] | "Chiseled Copper" |
@@ -216,25 +159,11 @@
 | cracked_stone_bricks | [block] | "Cracked Stone Bricks" |
 | crafter | [block] | "Crafter" |
 | crafting_table | [block] | "Crafting Table" |
-| creaking_heart | [block] | "Creaking Heart" |
 | creeper_head | [block] | "Creeper Head" |
 | creeper_wall_head | [block] | "Creeper Wall Head" |
-| crimson_button | [block] | "Crimson Button" |
-| crimson_door | [block] | "Crimson Door" |
-| crimson_fence | [block] | "Crimson Fence" |
-| crimson_fence_gate | [block] | "Crimson Fence Gate" |
 | crimson_fungus | [block] | "Crimson Fungus" |
-| crimson_hanging_sign | [block] | "Crimson Hanging Sign" |
-| crimson_hyphae | [block] | "Crimson Hyphae" |
 | crimson_nylium | [block] | "Crimson Nylium" |
-| crimson_planks | [block] | "Crimson Planks" |
-| crimson_pressure_plate | [block] | "Crimson Pressure Plate" |
 | crimson_roots | [block] | "Crimson Roots" |
-| crimson_sign | [block] | "Crimson Sign" |
-| crimson_slab | [block] | "Crimson Slab" |
-| crimson_stairs | [block] | "Crimson Stairs" |
-| crimson_stem | [block] | "Crimson Stem" |
-| crimson_trapdoor | [block] | "Crimson Trapdoor" |
 | crimson_wall_hanging_sign | [block] | "Crimson Wall Hanging Sign" |
 | crimson_wall_sign | [block] | "Crimson Wall Sign" |
 | crying_obsidian | [block] | "Crying Obsidian" |
@@ -259,23 +188,10 @@
 | cyan_wool | [block] | "Cyan Wool" |
 | damaged_anvil | [block] | "Damaged Anvil" |
 | dandelion | [block] | "Dandelion" |
-| dark_oak_button | [block] | "Dark Oak Button" |
-| dark_oak_door | [block] | "Dark Oak Door" |
-| dark_oak_fence | [block] | "Dark Oak Fence" |
-| dark_oak_fence_gate | [block] | "Dark Oak Fence Gate" |
-| dark_oak_hanging_sign | [block] | "Dark Oak Hanging Sign" |
 | dark_oak_leaves | [block] | "Dark Oak Leaves" |
-| dark_oak_log | [block] | "Dark Oak Log" |
-| dark_oak_planks | [block] | "Dark Oak Planks" |
-| dark_oak_pressure_plate | [block] | "Dark Oak Pressure Plate" |
 | dark_oak_sapling | [block] | "Dark Oak Sapling" |
-| dark_oak_sign | [block] | "Dark Oak Sign" |
-| dark_oak_slab | [block] | "Dark Oak Slab" |
-| dark_oak_stairs | [block] | "Dark Oak Stairs" |
-| dark_oak_trapdoor | [block] | "Dark Oak Trapdoor" |
 | dark_oak_wall_hanging_sign | [block] | "Dark Oak Wall Hanging Sign" |
 | dark_oak_wall_sign | [block] | "Dark Oak Wall Sign" |
-| dark_oak_wood | [block] | "Dark Oak Wood" |
 | dark_prismarine | [block] | "Dark Prismarine" |
 | dark_prismarine_slab | [block] | "Dark Prismarine Slab" |
 | dark_prismarine_stairs | [block] | "Dark Prismarine Stairs" |
@@ -432,23 +348,10 @@
 | jack_o_lantern | [block] | "Jack o'Lantern" |
 | jigsaw | [block] | "Jigsaw Block" |
 | jukebox | [block] | "Jukebox" |
-| jungle_button | [block] | "Jungle Button" |
-| jungle_door | [block] | "Jungle Door" |
-| jungle_fence | [block] | "Jungle Fence" |
-| jungle_fence_gate | [block] | "Jungle Fence Gate" |
-| jungle_hanging_sign | [block] | "Jungle Hanging Sign" |
 | jungle_leaves | [block] | "Jungle Leaves" |
-| jungle_log | [block] | "Jungle Log" |
-| jungle_planks | [block] | "Jungle Planks" |
-| jungle_pressure_plate | [block] | "Jungle Pressure Plate" |
 | jungle_sapling | [block] | "Jungle Sapling" |
-| jungle_sign | [block] | "Jungle Sign" |
-| jungle_slab | [block] | "Jungle Slab" |
-| jungle_stairs | [block] | "Jungle Stairs" |
-| jungle_trapdoor | [block] | "Jungle Trapdoor" |
 | jungle_wall_hanging_sign | [block] | "Jungle Wall Hanging Sign" |
 | jungle_wall_sign | [block] | "Jungle Wall Sign" |
-| jungle_wood | [block] | "Jungle Wood" |
 | kelp | [block] | "Kelp" |
 | kelp_plant | [block] | "Kelp Plant" |
 | ladder | [block] | "Ladder" |
@@ -518,24 +421,11 @@
 | magenta_terracotta | [block] | "Magenta Terracotta" |
 | magenta_wool | [block] | "Magenta Wool" |
 | magma_block | [block] | "Magma Block" |
-| mangrove_button | [block] | "Mangrove Button" |
-| mangrove_door | [block] | "Mangrove Door" |
-| mangrove_fence | [block] | "Mangrove Fence" |
-| mangrove_fence_gate | [block] | "Mangrove Fence Gate" |
-| mangrove_hanging_sign | [block] | "Mangrove Hanging Sign" |
 | mangrove_leaves | [block] | "Mangrove Leaves" |
-| mangrove_log | [block] | "Mangrove Log" |
-| mangrove_planks | [block] | "Mangrove Planks" |
-| mangrove_pressure_plate | [block] | "Mangrove Pressure Plate" |
 | mangrove_propagule | [block] | "Mangrove Propagule" |
 | mangrove_roots | [block] | "Mangrove Roots" |
-| mangrove_sign | [block] | "Mangrove Sign" |
-| mangrove_slab | [block] | "Mangrove Slab" |
-| mangrove_stairs | [block] | "Mangrove Stairs" |
-| mangrove_trapdoor | [block] | "Mangrove Trapdoor" |
 | mangrove_wall_hanging_sign | [block] | "Mangrove Wall Hanging Sign" |
 | mangrove_wall_sign | [block] | "Mangrove Wall Sign" |
-| mangrove_wood | [block] | "Mangrove Wood" |
 | medium_amethyst_bud | [block] | "Medium Amethyst Bud" |
 | melon | [block] | "Melon" |
 | melon_stem | [block] | "Melon Stem" |
@@ -572,23 +462,10 @@
 | netherite_block | [block] | "Block of Netherite" |
 | netherrack | [block] | "Netherrack" |
 | note_block | [block] | "Note Block" |
-| oak_button | [block] | "Oak Button" |
-| oak_door | [block] | "Oak Door" |
-| oak_fence | [block] | "Oak Fence" |
-| oak_fence_gate | [block] | "Oak Fence Gate" |
-| oak_hanging_sign | [block] | "Oak Hanging Sign" |
 | oak_leaves | [block] | "Oak Leaves" |
-| oak_log | [block] | "Oak Log" |
-| oak_planks | [block] | "Oak Planks" |
-| oak_pressure_plate | [block] | "Oak Pressure Plate" |
 | oak_sapling | [block] | "Oak Sapling" |
-| oak_sign | [block] | "Oak Sign" |
-| oak_slab | [block] | "Oak Slab" |
-| oak_stairs | [block] | "Oak Stairs" |
-| oak_trapdoor | [block] | "Oak Trapdoor" |
 | oak_wall_hanging_sign | [block] | "Oak Wall Hanging Sign" |
 | oak_wall_sign | [block] | "Oak Wall Sign" |
-| oak_wood | [block] | "Oak Wood" |
 | observer | [block] | "Observer" |
 | obsidian | [block] | "Obsidian" |
 | ochre_froglight | [block] | "Ochre Froglight" |
@@ -621,23 +498,10 @@
 | pale_hanging_moss | [block] | "Pale Hanging Moss" |
 | pale_moss_block | [block] | "Pale Moss Block" |
 | pale_moss_carpet | [block] | "Pale Moss Carpet" |
-| pale_oak_button | [block] | "Pale Oak Button" |
-| pale_oak_door | [block] | "Pale Oak Door" |
-| pale_oak_fence | [block] | "Pale Oak Fence" |
-| pale_oak_fence_gate | [block] | "Pale Oak Fence Gate" |
-| pale_oak_hanging_sign | [block] | "Pale Oak Hanging Sign" |
 | pale_oak_leaves | [block] | "Pale Oak Leaves" |
-| pale_oak_log | [block] | "Pale Oak Log" |
-| pale_oak_planks | [block] | "Pale Oak Planks" |
-| pale_oak_pressure_plate | [block] | "Pale Oak Pressure Plate" |
 | pale_oak_sapling | [block] | "Pale Oak Sapling" |
-| pale_oak_sign | [block] | "Pale Oak Sign" |
-| pale_oak_slab | [block] | "Pale Oak Slab" |
-| pale_oak_stairs | [block] | "Pale Oak Stairs" |
-| pale_oak_trapdoor | [block] | "Pale Oak Trapdoor" |
 | pale_oak_wall_hanging_sign | [block] | "Pale Oak Wall Hanging Sign" |
 | pale_oak_wall_sign | [block] | "Pale Oak Wall Sign" |
-| pale_oak_wood | [block] | "Pale Oak Wood" |
 | pearlescent_froglight | [block] | "Pearlescent Froglight" |
 | peony | [block] | "Peony" |
 | petrified_oak_slab | [block] | "Petrified Oak Slab" |
@@ -861,23 +725,10 @@
 | spawner | [block] | "Monster Spawner" |
 | sponge | [block] | "Sponge" |
 | spore_blossom | [block] | "Spore Blossom" |
-| spruce_button | [block] | "Spruce Button" |
-| spruce_door | [block] | "Spruce Door" |
-| spruce_fence | [block] | "Spruce Fence" |
-| spruce_fence_gate | [block] | "Spruce Fence Gate" |
-| spruce_hanging_sign | [block] | "Spruce Hanging Sign" |
 | spruce_leaves | [block] | "Spruce Leaves" |
-| spruce_log | [block] | "Spruce Log" |
-| spruce_planks | [block] | "Spruce Planks" |
-| spruce_pressure_plate | [block] | "Spruce Pressure Plate" |
 | spruce_sapling | [block] | "Spruce Sapling" |
-| spruce_sign | [block] | "Spruce Sign" |
-| spruce_slab | [block] | "Spruce Slab" |
-| spruce_stairs | [block] | "Spruce Stairs" |
-| spruce_trapdoor | [block] | "Spruce Trapdoor" |
 | spruce_wall_hanging_sign | [block] | "Spruce Wall Hanging Sign" |
 | spruce_wall_sign | [block] | "Spruce Wall Sign" |
-| spruce_wood | [block] | "Spruce Wood" |
 | sticky_piston | [block] | "Sticky Piston" |
 | stone | [block] | "Stone" |
 | stone_brick_slab | [block] | "Stone Brick Slab" |
@@ -889,29 +740,6 @@
 | stone_slab | [block] | "Stone Slab" |
 | stone_stairs | [block] | "Stone Stairs" |
 | stonecutter | [block] | "Stonecutter" |
-| stripped_acacia_log | [block] | "Stripped Acacia Log" |
-| stripped_acacia_wood | [block] | "Stripped Acacia Wood" |
-| stripped_bamboo_block | [block] | "Block of Stripped Bamboo" |
-| stripped_birch_log | [block] | "Stripped Birch Log" |
-| stripped_birch_wood | [block] | "Stripped Birch Wood" |
-| stripped_cherry_log | [block] | "Stripped Cherry Log" |
-| stripped_cherry_wood | [block] | "Stripped Cherry Wood" |
-| stripped_crimson_hyphae | [block] | "Stripped Crimson Hyphae" |
-| stripped_crimson_stem | [block] | "Stripped Crimson Stem" |
-| stripped_dark_oak_log | [block] | "Stripped Dark Oak Log" |
-| stripped_dark_oak_wood | [block] | "Stripped Dark Oak Wood" |
-| stripped_jungle_log | [block] | "Stripped Jungle Log" |
-| stripped_jungle_wood | [block] | "Stripped Jungle Wood" |
-| stripped_mangrove_log | [block] | "Stripped Mangrove Log" |
-| stripped_mangrove_wood | [block] | "Stripped Mangrove Wood" |
-| stripped_oak_log | [block] | "Stripped Oak Log" |
-| stripped_oak_wood | [block] | "Stripped Oak Wood" |
-| stripped_pale_oak_log | [block] | "Stripped Pale Oak Log" |
-| stripped_pale_oak_wood | [block] | "Stripped Pale Oak Wood" |
-| stripped_spruce_log | [block] | "Stripped Spruce Log" |
-| stripped_spruce_wood | [block] | "Stripped Spruce Wood" |
-| stripped_warped_hyphae | [block] | "Stripped Warped Hyphae" |
-| stripped_warped_stem | [block] | "Stripped Warped Stem" |
 | structure_block | [block] | "Structure Block" |
 | structure_void | [block] | "Structure Void" |
 | sugar_cane | [block] | "Sugar Cane" |
@@ -955,22 +783,9 @@
 | vine | [block] | "Vines" |
 | void_air | [block] | "Void Air" |
 | wall_torch | [block] | "Wall Torch" |
-| warped_button | [block] | "Warped Button" |
-| warped_door | [block] | "Warped Door" |
-| warped_fence | [block] | "Warped Fence" |
-| warped_fence_gate | [block] | "Warped Fence Gate" |
 | warped_fungus | [block] | "Warped Fungus" |
-| warped_hanging_sign | [block] | "Warped Hanging Sign" |
-| warped_hyphae | [block] | "Warped Hyphae" |
 | warped_nylium | [block] | "Warped Nylium" |
-| warped_planks | [block] | "Warped Planks" |
-| warped_pressure_plate | [block] | "Warped Pressure Plate" |
 | warped_roots | [block] | "Warped Roots" |
-| warped_sign | [block] | "Warped Sign" |
-| warped_slab | [block] | "Warped Slab" |
-| warped_stairs | [block] | "Warped Stairs" |
-| warped_stem | [block] | "Warped Stem" |
-| warped_trapdoor | [block] | "Warped Trapdoor" |
 | warped_wall_hanging_sign | [block] | "Warped Wall Hanging Sign" |
 | warped_wall_sign | [block] | "Warped Wall Sign" |
 | warped_wart_block | [block] | "Warped Wart Block" |
@@ -1056,8 +871,6 @@
 | yellow_wool | [block] | "Yellow Wool" |
 | zombie_head | [block] | "Zombie Head" |
 | zombie_wall_head | [block] | "Zombie Wall Head" |
-| acacia_boat | [item] | "Acacia Boat" |
-| acacia_chest_boat | [item] | "Acacia Boat with Chest" |
 | allay_spawn_egg | [item] | "Allay Spawn Egg" |
 | amethyst_shard | [item] | "Amethyst Shard" |
 | angler_pottery_shard | [item] | "Angler Pottery Shard" |
@@ -1074,16 +887,12 @@
 | axolotl_bucket | [item] | "Bucket of Axolotl" |
 | axolotl_spawn_egg | [item] | "Axolotl Spawn Egg" |
 | baked_potato | [item] | "Baked Potato" |
-| bamboo_chest_raft | [item] | "Bamboo Raft with Chest" |
-| bamboo_raft | [item] | "Bamboo Raft" |
 | bat_spawn_egg | [item] | "Bat Spawn Egg" |
 | bee_spawn_egg | [item] | "Bee Spawn Egg" |
 | beef | [item] | "Raw Beef" |
 | beetroot | [item] | "Beetroot" |
 | beetroot_seeds | [item] | "Beetroot Seeds" |
 | beetroot_soup | [item] | "Beetroot Soup" |
-| birch_boat | [item] | "Birch Boat" |
-| birch_chest_boat | [item] | "Birch Boat with Chest" |
 | black_bundle | [item] | "Black Bundle" |
 | blade_pottery_shard | [item] | "Blade Pottery Shard" |
 | blade_pottery_sherd | [item] | "Blade Pottery Sherd" |
@@ -1123,8 +932,6 @@
 | chainmail_helmet | [item] | "Chainmail Helmet" |
 | chainmail_leggings | [item] | "Chainmail Leggings" |
 | charcoal | [item] | "Charcoal" |
-| cherry_boat | [item] | "Cherry Boat" |
-| cherry_chest_boat | [item] | "Cherry Boat with Chest" |
 | chest_minecart | [item] | "Minecart with Chest" |
 | chicken | [item] | "Raw Chicken" |
 | chicken_spawn_egg | [item] | "Chicken Spawn Egg" |
@@ -1156,11 +963,8 @@
 | cyan_bundle | [item] | "Cyan Bundle" |
 | danger_pottery_shard | [item] | "Danger Pottery Shard" |
 | danger_pottery_sherd | [item] | "Danger Pottery Sherd" |
-| dark_oak_boat | [item] | "Dark Oak Boat" |
-| dark_oak_chest_boat | [item] | "Dark Oak Boat with Chest" |
 | debug_stick | [item] | "Debug Stick" |
 | diamond | [item] | "Diamond" |
-| diamond_axe | [item] | "Diamond Axe" |
 | diamond_boots | [item] | "Diamond Boots" |
 | diamond_chestplate | [item] | "Diamond Chestplate" |
 | diamond_helmet | [item] | "Diamond Helmet" |
@@ -1229,7 +1033,6 @@
 | gold_ingot | [item] | "Gold Ingot" |
 | gold_nugget | [item] | "Gold Nugget" |
 | golden_apple | [item] | "Golden Apple" |
-| golden_axe | [item] | "Golden Axe" |
 | golden_boots | [item] | "Golden Boots" |
 | golden_carrot | [item] | "Golden Carrot" |
 | golden_chestplate | [item] | "Golden Chestplate" |
@@ -1261,7 +1064,6 @@
 | howl_pottery_sherd | [item] | "Howl Pottery Sherd" |
 | husk_spawn_egg | [item] | "Husk Spawn Egg" |
 | ink_sac | [item] | "Ink Sac" |
-| iron_axe | [item] | "Iron Axe" |
 | iron_boots | [item] | "Iron Boots" |
 | iron_chestplate | [item] | "Iron Chestplate" |
 | iron_golem_spawn_egg | [item] | "Iron Golem Spawn Egg" |
@@ -1275,8 +1077,6 @@
 | iron_shovel | [item] | "Iron Shovel" |
 | iron_sword | [item] | "Iron Sword" |
 | item_frame | [item] | "Item Frame" |
-| jungle_boat | [item] | "Jungle Boat" |
-| jungle_chest_boat | [item] | "Jungle Boat with Chest" |
 | knowledge_book | [item] | "Knowledge Book" |
 | lapis_lazuli | [item] | "Lapis Lazuli" |
 | lava_bucket | [item] | "Lava Bucket" |
@@ -1297,8 +1097,6 @@
 | magenta_bundle | [item] | "Magenta Bundle" |
 | magma_cream | [item] | "Magma Cream" |
 | magma_cube_spawn_egg | [item] | "Magma Cube Spawn Egg" |
-| mangrove_boat | [item] | "Mangrove Boat" |
-| mangrove_chest_boat | [item] | "Mangrove Boat with Chest" |
 | map | [item] | "Empty Map" |
 | melon_seeds | [item] | "Melon Seeds" |
 | melon_slice | [item] | "Melon Slice" |
@@ -1336,7 +1134,6 @@
 | nautilus_shell | [item] | "Nautilus Shell" |
 | nether_brick | [item] | "Nether Brick" |
 | nether_star | [item] | "Nether Star" |
-| netherite_axe | [item] | "Netherite Axe" |
 | netherite_boots | [item] | "Netherite Boots" |
 | netherite_chestplate | [item] | "Netherite Chestplate" |
 | netherite_helmet | [item] | "Netherite Helmet" |
@@ -1348,15 +1145,11 @@
 | netherite_shovel | [item] | "Netherite Shovel" |
 | netherite_sword | [item] | "Netherite Sword" |
 | netherite_upgrade_smithing_template | [item] | "Smithing Template" |
-| oak_boat | [item] | "Oak Boat" |
-| oak_chest_boat | [item] | "Oak Boat with Chest" |
 | ocelot_spawn_egg | [item] | "Ocelot Spawn Egg" |
 | ominous_bottle | [item] | "Ominous Bottle" |
 | ominous_trial_key | [item] | "Ominous Trial Key" |
 | orange_bundle | [item] | "Orange Bundle" |
 | painting | [item] | "Painting" |
-| pale_oak_boat | [item] | "Pale Oak Boat" |
-| pale_oak_chest_boat | [item] | "Pale Oak Boat with Chest" |
 | panda_spawn_egg | [item] | "Panda Spawn Egg" |
 | paper | [item] | "Paper" |
 | parrot_spawn_egg | [item] | "Parrot Spawn Egg" |
@@ -1448,12 +1241,9 @@
 | spider_spawn_egg | [item] | "Spider Spawn Egg" |
 | spire_armor_trim_smithing_template | [item] | "Smithing Template" |
 | splash_potion | [item] | "Splash Potion" |
-| spruce_boat | [item] | "Spruce Boat" |
-| spruce_chest_boat | [item] | "Spruce Boat with Chest" |
 | spyglass | [item] | "Spyglass" |
 | squid_spawn_egg | [item] | "Squid Spawn Egg" |
 | stick | [item] | "Stick" |
-| stone_axe | [item] | "Stone Axe" |
 | stone_hoe | [item] | "Stone Hoe" |
 | stone_pickaxe | [item] | "Stone Pickaxe" |
 | stone_shovel | [item] | "Stone Shovel" |
@@ -1499,7 +1289,6 @@
 | wither_spawn_egg | [item] | "Wither Spawn Egg" |
 | wolf_armor | [item] | "Wolf Armor" |
 | wolf_spawn_egg | [item] | "Wolf Spawn Egg" |
-| wooden_axe | [item] | "Wooden Axe" |
 | wooden_hoe | [item] | "Wooden Hoe" |
 | wooden_pickaxe | [item] | "Wooden Pickaxe" |
 | wooden_shovel | [item] | "Wooden Shovel" |
@@ -1515,9 +1304,12 @@
 ## Excluded
 | ID | Type | Name |
 |---|:---:|---|
+| acacia_wall_hanging_sign | [block] | "Acacia Wall Hanging Sign" |
+| acacia_wall_sign | [block] | "Acacia Wall Sign" |
 | air | [block] | "Air" |
 | attached_melon_stem | [block] | "Attached Melon Stem" |
 | attached_pumpkin_stem | [block] | "Attached Pumpkin Stem" |
+| bamboo_sapling | [block] | "Bamboo Shoot" |
 | barrier | [block] | "Barrier" |
 | bedrock | [block] | "Bedrock" |
 | big_dripleaf_stem | [block] | "Big Dripleaf Stem" |
@@ -1550,23 +1342,231 @@
 ## Included
 | ID | Type | Name |
 |---|:---:|---|
+| acacia_button | [block] | "Acacia Button" |
+| acacia_door | [block] | "Acacia Door" |
+| acacia_fence | [block] | "Acacia Fence" |
+| acacia_fence_gate | [block] | "Acacia Fence Gate" |
+| acacia_hanging_sign | [block] | "Acacia Hanging Sign" |
+| acacia_log | [block] | "Acacia Log" |
+| acacia_planks | [block] | "Acacia Planks" |
+| acacia_pressure_plate | [block] | "Acacia Pressure Plate" |
+| acacia_sign | [block] | "Acacia Sign" |
+| acacia_slab | [block] | "Acacia Slab" |
+| acacia_stairs | [block] | "Acacia Stairs" |
+| acacia_trapdoor | [block] | "Acacia Trapdoor" |
+| acacia_wood | [block] | "Acacia Wood" |
+| bamboo_block | [block] | "Block of Bamboo" |
+| bamboo_button | [block] | "Bamboo Button" |
+| bamboo_door | [block] | "Bamboo Door" |
+| bamboo_fence | [block] | "Bamboo Fence" |
+| bamboo_fence_gate | [block] | "Bamboo Fence Gate" |
+| bamboo_hanging_sign | [block] | "Bamboo Hanging Sign" |
+| bamboo_mosaic | [block] | "Bamboo Mosaic" |
+| bamboo_mosaic_slab | [block] | "Bamboo Mosaic Slab" |
+| bamboo_mosaic_stairs | [block] | "Bamboo Mosaic Stairs" |
+| bamboo_planks | [block] | "Bamboo Planks" |
+| bamboo_pressure_plate | [block] | "Bamboo Pressure Plate" |
+| bamboo_sign | [block] | "Bamboo Sign" |
+| bamboo_slab | [block] | "Bamboo Slab" |
+| bamboo_stairs | [block] | "Bamboo Stairs" |
+| bamboo_trapdoor | [block] | "Bamboo Trapdoor" |
+| birch_button | [block] | "Birch Button" |
+| birch_door | [block] | "Birch Door" |
+| birch_fence | [block] | "Birch Fence" |
+| birch_fence_gate | [block] | "Birch Fence Gate" |
+| birch_hanging_sign | [block] | "Birch Hanging Sign" |
+| birch_log | [block] | "Birch Log" |
+| birch_planks | [block] | "Birch Planks" |
+| birch_pressure_plate | [block] | "Birch Pressure Plate" |
+| birch_sign | [block] | "Birch Sign" |
+| birch_slab | [block] | "Birch Slab" |
+| birch_stairs | [block] | "Birch Stairs" |
+| birch_trapdoor | [block] | "Birch Trapdoor" |
+| birch_wood | [block] | "Birch Wood" |
 | blue_bed | [block] | "Blue Bed" |
+| cherry_button | [block] | "Cherry Button" |
+| cherry_door | [block] | "Cherry Door" |
+| cherry_fence | [block] | "Cherry Fence" |
+| cherry_fence_gate | [block] | "Cherry Fence Gate" |
+| cherry_hanging_sign | [block] | "Cherry Hanging Sign" |
+| cherry_log | [block] | "Cherry Log" |
+| cherry_planks | [block] | "Cherry Planks" |
+| cherry_pressure_plate | [block] | "Cherry Pressure Plate" |
+| cherry_sign | [block] | "Cherry Sign" |
+| cherry_slab | [block] | "Cherry Slab" |
+| cherry_stairs | [block] | "Cherry Stairs" |
+| cherry_trapdoor | [block] | "Cherry Trapdoor" |
+| cherry_wood | [block] | "Cherry Wood" |
+| creaking_heart | [block] | "Creaking Heart" |
+| crimson_button | [block] | "Crimson Button" |
+| crimson_door | [block] | "Crimson Door" |
+| crimson_fence | [block] | "Crimson Fence" |
+| crimson_fence_gate | [block] | "Crimson Fence Gate" |
+| crimson_hanging_sign | [block] | "Crimson Hanging Sign" |
+| crimson_hyphae | [block] | "Crimson Hyphae" |
+| crimson_planks | [block] | "Crimson Planks" |
+| crimson_pressure_plate | [block] | "Crimson Pressure Plate" |
+| crimson_sign | [block] | "Crimson Sign" |
+| crimson_slab | [block] | "Crimson Slab" |
+| crimson_stairs | [block] | "Crimson Stairs" |
+| crimson_stem | [block] | "Crimson Stem" |
+| crimson_trapdoor | [block] | "Crimson Trapdoor" |
+| dark_oak_button | [block] | "Dark Oak Button" |
+| dark_oak_door | [block] | "Dark Oak Door" |
+| dark_oak_fence | [block] | "Dark Oak Fence" |
+| dark_oak_fence_gate | [block] | "Dark Oak Fence Gate" |
+| dark_oak_hanging_sign | [block] | "Dark Oak Hanging Sign" |
+| dark_oak_log | [block] | "Dark Oak Log" |
+| dark_oak_planks | [block] | "Dark Oak Planks" |
+| dark_oak_pressure_plate | [block] | "Dark Oak Pressure Plate" |
+| dark_oak_sign | [block] | "Dark Oak Sign" |
+| dark_oak_slab | [block] | "Dark Oak Slab" |
+| dark_oak_stairs | [block] | "Dark Oak Stairs" |
+| dark_oak_trapdoor | [block] | "Dark Oak Trapdoor" |
+| dark_oak_wood | [block] | "Dark Oak Wood" |
 | green_wool | [block] | "Green Wool" |
+| jungle_button | [block] | "Jungle Button" |
+| jungle_door | [block] | "Jungle Door" |
+| jungle_fence | [block] | "Jungle Fence" |
+| jungle_fence_gate | [block] | "Jungle Fence Gate" |
+| jungle_hanging_sign | [block] | "Jungle Hanging Sign" |
+| jungle_log | [block] | "Jungle Log" |
+| jungle_planks | [block] | "Jungle Planks" |
+| jungle_pressure_plate | [block] | "Jungle Pressure Plate" |
+| jungle_sign | [block] | "Jungle Sign" |
+| jungle_slab | [block] | "Jungle Slab" |
+| jungle_stairs | [block] | "Jungle Stairs" |
+| jungle_trapdoor | [block] | "Jungle Trapdoor" |
+| jungle_wood | [block] | "Jungle Wood" |
+| mangrove_button | [block] | "Mangrove Button" |
+| mangrove_door | [block] | "Mangrove Door" |
+| mangrove_fence | [block] | "Mangrove Fence" |
+| mangrove_fence_gate | [block] | "Mangrove Fence Gate" |
+| mangrove_hanging_sign | [block] | "Mangrove Hanging Sign" |
+| mangrove_log | [block] | "Mangrove Log" |
+| mangrove_planks | [block] | "Mangrove Planks" |
+| mangrove_pressure_plate | [block] | "Mangrove Pressure Plate" |
+| mangrove_sign | [block] | "Mangrove Sign" |
+| mangrove_slab | [block] | "Mangrove Slab" |
+| mangrove_stairs | [block] | "Mangrove Stairs" |
+| mangrove_trapdoor | [block] | "Mangrove Trapdoor" |
+| mangrove_wood | [block] | "Mangrove Wood" |
+| oak_button | [block] | "Oak Button" |
+| oak_door | [block] | "Oak Door" |
+| oak_fence | [block] | "Oak Fence" |
+| oak_fence_gate | [block] | "Oak Fence Gate" |
+| oak_hanging_sign | [block] | "Oak Hanging Sign" |
+| oak_log | [block] | "Oak Log" |
+| oak_planks | [block] | "Oak Planks" |
+| oak_pressure_plate | [block] | "Oak Pressure Plate" |
+| oak_sign | [block] | "Oak Sign" |
+| oak_slab | [block] | "Oak Slab" |
+| oak_stairs | [block] | "Oak Stairs" |
+| oak_trapdoor | [block] | "Oak Trapdoor" |
+| oak_wood | [block] | "Oak Wood" |
 | orange_wool | [block] | "Orange Wool" |
+| pale_oak_button | [block] | "Pale Oak Button" |
+| pale_oak_door | [block] | "Pale Oak Door" |
+| pale_oak_fence | [block] | "Pale Oak Fence" |
+| pale_oak_fence_gate | [block] | "Pale Oak Fence Gate" |
+| pale_oak_hanging_sign | [block] | "Pale Oak Hanging Sign" |
+| pale_oak_log | [block] | "Pale Oak Log" |
+| pale_oak_planks | [block] | "Pale Oak Planks" |
+| pale_oak_pressure_plate | [block] | "Pale Oak Pressure Plate" |
+| pale_oak_sign | [block] | "Pale Oak Sign" |
+| pale_oak_slab | [block] | "Pale Oak Slab" |
+| pale_oak_stairs | [block] | "Pale Oak Stairs" |
+| pale_oak_trapdoor | [block] | "Pale Oak Trapdoor" |
+| pale_oak_wood | [block] | "Pale Oak Wood" |
 | purple_bed | [block] | "Purple Bed" |
+| spruce_button | [block] | "Spruce Button" |
+| spruce_door | [block] | "Spruce Door" |
+| spruce_fence | [block] | "Spruce Fence" |
+| spruce_fence_gate | [block] | "Spruce Fence Gate" |
+| spruce_hanging_sign | [block] | "Spruce Hanging Sign" |
+| spruce_log | [block] | "Spruce Log" |
+| spruce_planks | [block] | "Spruce Planks" |
+| spruce_pressure_plate | [block] | "Spruce Pressure Plate" |
+| spruce_sign | [block] | "Spruce Sign" |
+| spruce_slab | [block] | "Spruce Slab" |
+| spruce_stairs | [block] | "Spruce Stairs" |
+| spruce_trapdoor | [block] | "Spruce Trapdoor" |
+| spruce_wood | [block] | "Spruce Wood" |
+| stripped_acacia_log | [block] | "Stripped Acacia Log" |
+| stripped_acacia_wood | [block] | "Stripped Acacia Wood" |
+| stripped_bamboo_block | [block] | "Block of Stripped Bamboo" |
+| stripped_birch_log | [block] | "Stripped Birch Log" |
+| stripped_birch_wood | [block] | "Stripped Birch Wood" |
+| stripped_cherry_log | [block] | "Stripped Cherry Log" |
+| stripped_cherry_wood | [block] | "Stripped Cherry Wood" |
+| stripped_crimson_hyphae | [block] | "Stripped Crimson Hyphae" |
+| stripped_crimson_stem | [block] | "Stripped Crimson Stem" |
+| stripped_dark_oak_log | [block] | "Stripped Dark Oak Log" |
+| stripped_dark_oak_wood | [block] | "Stripped Dark Oak Wood" |
+| stripped_jungle_log | [block] | "Stripped Jungle Log" |
+| stripped_jungle_wood | [block] | "Stripped Jungle Wood" |
+| stripped_mangrove_log | [block] | "Stripped Mangrove Log" |
+| stripped_mangrove_wood | [block] | "Stripped Mangrove Wood" |
+| stripped_oak_log | [block] | "Stripped Oak Log" |
+| stripped_oak_wood | [block] | "Stripped Oak Wood" |
+| stripped_pale_oak_log | [block] | "Stripped Pale Oak Log" |
+| stripped_pale_oak_wood | [block] | "Stripped Pale Oak Wood" |
+| stripped_spruce_log | [block] | "Stripped Spruce Log" |
+| stripped_spruce_wood | [block] | "Stripped Spruce Wood" |
+| stripped_warped_hyphae | [block] | "Stripped Warped Hyphae" |
+| stripped_warped_stem | [block] | "Stripped Warped Stem" |
+| warped_button | [block] | "Warped Button" |
+| warped_door | [block] | "Warped Door" |
+| warped_fence | [block] | "Warped Fence" |
+| warped_fence_gate | [block] | "Warped Fence Gate" |
+| warped_hanging_sign | [block] | "Warped Hanging Sign" |
+| warped_hyphae | [block] | "Warped Hyphae" |
+| warped_planks | [block] | "Warped Planks" |
+| warped_pressure_plate | [block] | "Warped Pressure Plate" |
+| warped_sign | [block] | "Warped Sign" |
+| warped_slab | [block] | "Warped Slab" |
+| warped_stairs | [block] | "Warped Stairs" |
+| warped_stem | [block] | "Warped Stem" |
+| warped_trapdoor | [block] | "Warped Trapdoor" |
+| acacia_boat | [item] | "Acacia Boat" |
+| acacia_chest_boat | [item] | "Acacia Boat with Chest" |
+| bamboo_chest_raft | [item] | "Bamboo Raft with Chest" |
+| bamboo_raft | [item] | "Bamboo Raft" |
+| birch_boat | [item] | "Birch Boat" |
+| birch_chest_boat | [item] | "Birch Boat with Chest" |
 | black_dye | [item] | "Black Dye" |
 | blue_dye | [item] | "Blue Dye" |
 | brown_dye | [item] | "Brown Dye" |
+| cherry_boat | [item] | "Cherry Boat" |
+| cherry_chest_boat | [item] | "Cherry Boat with Chest" |
 | cyan_dye | [item] | "Cyan Dye" |
+| dark_oak_boat | [item] | "Dark Oak Boat" |
+| dark_oak_chest_boat | [item] | "Dark Oak Boat with Chest" |
+| diamond_axe | [item] | "Diamond Axe" |
+| golden_axe | [item] | "Golden Axe" |
 | gray_dye | [item] | "Gray Dye" |
 | green_dye | [item] | "Green Dye" |
+| iron_axe | [item] | "Iron Axe" |
+| jungle_boat | [item] | "Jungle Boat" |
+| jungle_chest_boat | [item] | "Jungle Boat with Chest" |
 | light_blue_dye | [item] | "Light Blue Dye" |
 | light_gray_dye | [item] | "Light Gray Dye" |
 | lime_dye | [item] | "Lime Dye" |
 | magenta_dye | [item] | "Magenta Dye" |
+| mangrove_boat | [item] | "Mangrove Boat" |
+| mangrove_chest_boat | [item] | "Mangrove Boat with Chest" |
+| netherite_axe | [item] | "Netherite Axe" |
+| oak_boat | [item] | "Oak Boat" |
+| oak_chest_boat | [item] | "Oak Boat with Chest" |
 | orange_dye | [item] | "Orange Dye" |
+| pale_oak_boat | [item] | "Pale Oak Boat" |
+| pale_oak_chest_boat | [item] | "Pale Oak Boat with Chest" |
 | pink_dye | [item] | "Pink Dye" |
 | purple_dye | [item] | "Purple Dye" |
 | red_dye | [item] | "Red Dye" |
+| spruce_boat | [item] | "Spruce Boat" |
+| spruce_chest_boat | [item] | "Spruce Boat with Chest" |
+| stone_axe | [item] | "Stone Axe" |
 | white_dye | [item] | "White Dye" |
+| wooden_axe | [item] | "Wooden Axe" |
 | yellow_dye | [item] | "Yellow Dye" |

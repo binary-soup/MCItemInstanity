@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "spruce_log",
+        "title": "Spruce Up Your Life",
+        "frame": "goal"
+    },
+    "items": [
+        "spruce_button",
+        "spruce_door",
+        "spruce_fence",
+        "spruce_fence_gate",
+        "spruce_hanging_sign",
+        "spruce_log",
+        "spruce_planks",
+        "spruce_pressure_plate",
+        "spruce_sign",
+        "spruce_slab",
+        "spruce_stairs",
+        "spruce_trapdoor",
+        "spruce_wood",
+        "stripped_spruce_log",
+        "stripped_spruce_wood",
+        "spruce_boat",
+        "spruce_chest_boat"
+    ]
+}

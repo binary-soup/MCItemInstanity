@@ -9,17 +9,10 @@
             "end_gateway",
             "end_portal",
             "fire",
-            "lava"
-        ],
-        "creative_only": [
-            "barrier",
-            "bedrock",
-            "chain_command_block",
-            "command_block",
-            "end_portal_frame",
-            "farmland"
-        ],
-        "bedrock_only": [
+            "lava",
+            "acacia_wall_sign",
+            "acacia_wall_hanging_sign",
+            "bamboo_sapling",
             "white_candle_cake",
             "light_gray_candle_cake",
             "gray_candle_cake",
@@ -36,6 +29,14 @@
             "purple_candle_cake",
             "magenta_candle_cake",
             "pink_candle_cake"
+        ],
+        "creative_only": [
+            "barrier",
+            "bedrock",
+            "chain_command_block",
+            "command_block",
+            "end_portal_frame",
+            "farmland"
         ],
         "unwanted": [
             "chipped_anvil"

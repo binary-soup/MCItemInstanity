@@ -1,0 +1,17 @@
+{
+    "parent": "root",
+    "display": {
+        "item": "stone_axe",
+        "title": "Axeing for Trouble",
+        "frame": "goal"
+    },
+    "type": "any",
+    "items": [
+        "wooden_axe",
+        "stone_axe",
+        "iron_axe",
+        "golden_axe",
+        "diamond_axe",
+        "netherite_axe"
+    ]
+}

@@ -5,6 +5,7 @@ const (
 	COLOR_YELLOW       = "yellow"
 	COLOR_LIGHT_PURPLE = "light_purple"
 	COLOR_GOLD         = "gold"
+	COLOR_GREEN        = "green"
 )
 
 type Display struct {

@@ -71,12 +71,11 @@ func (v buildVisitor) ParseAll(path, dir, file string) error {
 
 	collect := data.Collect{
 		Name:   all.Display.Group,
-		Parent: "root",
+		Parent: all.Parent,
 		Display: data.CollectDisplay{
-			Item:        all.Display.Item,
-			Title:       all.Display.Title,
-			Description: all.Display.Description,
-			Frame:       builders.FRAME_CHALLENGE,
+			Item:  all.Display.Item,
+			Title: all.Display.Title,
+			Frame: builders.FRAME_CHALLENGE,
 		},
 		Items: visitor.Ids,
 	}

@@ -1,0 +1,27 @@
+{
+    "parent": "../axes",
+    "display": {
+        "item": "acacia_log",
+        "title": "Acacia Need Some",
+        "frame": "goal"
+    },
+    "items": [
+        "acacia_button",
+        "acacia_door",
+        "acacia_fence",
+        "acacia_fence_gate",
+        "acacia_hanging_sign",
+        "acacia_log",
+        "acacia_planks",
+        "acacia_pressure_plate",
+        "acacia_sign",
+        "acacia_slab",
+        "acacia_stairs",
+        "acacia_trapdoor",
+        "acacia_wood",
+        "stripped_acacia_log",
+        "stripped_acacia_wood",
+        "acacia_boat",
+        "acacia_chest_boat"
+    ]
+}

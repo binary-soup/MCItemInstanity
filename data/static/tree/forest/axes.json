@@ -1,0 +1,16 @@
+{
+    "parent": "axe",
+    "display": {
+        "item": "diamond_axe",
+        "title": "Now You're Axeing for It",
+        "frame": "challenge"
+    },
+    "items": [
+        "wooden_axe",
+        "stone_axe",
+        "iron_axe",
+        "golden_axe",
+        "diamond_axe",
+        "netherite_axe"
+    ]
+}

@@ -3,7 +3,6 @@
     "display": {
         "item": "red_dye",
         "title": "Dyeing to Get Started",
-        "description": "every color of dye",
         "frame": "goal"
     },
     "items": [

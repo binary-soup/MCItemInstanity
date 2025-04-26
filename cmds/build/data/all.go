@@ -8,10 +8,9 @@ type CollectAll struct {
 }
 
 type CollectAllDisplay struct {
-	Group       string `json:"group"`
-	Item        string `json:"item"`
-	Title       string `json:"title"`
-	Description string `json:"description"`
+	Group string `json:"group"`
+	Item  string `json:"item"`
+	Title string `json:"title"`
 }
 
 func LoadCollectAllJSON(path string) (*CollectAll, error) {

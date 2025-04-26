@@ -3,7 +3,6 @@
     "display": {
         "group": "colored_items",
         "item": "red_dye",
-        "title": "Taste the Rainbow",
-        "description": "every color of everything"
+        "title": "Taste the Rainbow"
     }
 }
