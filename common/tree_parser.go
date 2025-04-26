@@ -8,8 +8,9 @@ import (
 )
 
 const (
-	ROOT_FILE = "root.json"
-	ALL_FILE  = "all.json"
+	ITEM_TREE_ROOT = "tree"
+	ROOT_FILE      = "root.json"
+	ALL_FILE       = "all.json"
 )
 
 type TreeVisitor interface {

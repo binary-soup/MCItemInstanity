@@ -28,8 +28,6 @@
 | andesite_stairs | [block] | "Andesite Stairs" |
 | andesite_wall | [block] | "Andesite Wall" |
 | anvil | [block] | "Anvil" |
-| attached_melon_stem | [block] | "Attached Melon Stem" |
-| attached_pumpkin_stem | [block] | "Attached Pumpkin Stem" |
 | azalea | [block] | "Azalea" |
 | azalea_leaves | [block] | "Azalea Leaves" |
 | azure_bluet | [block] | "Azure Bluet" |
@@ -55,13 +53,11 @@
 | barrel | [block] | "Barrel" |
 | basalt | [block] | "Basalt" |
 | beacon | [block] | "Beacon" |
-| bedrock | [block] | "Bedrock" |
 | bee_nest | [block] | "Bee Nest" |
 | beehive | [block] | "Beehive" |
 | beetroots | [block] | "Beetroots" |
 | bell | [block] | "Bell" |
 | big_dripleaf | [block] | "Big Dripleaf" |
-| big_dripleaf_stem | [block] | "Big Dripleaf Stem" |
 | birch_button | [block] | "Birch Button" |
 | birch_door | [block] | "Birch Door" |
 | birch_fence | [block] | "Birch Fence" |
@@ -82,7 +78,6 @@
 | black_banner | [block] | "Black Banner" |
 | black_bed | [block] | "Black Bed" |
 | black_candle | [block] | "Black Candle" |
-| black_candle_cake | [block] | "Cake with Black Candle" |
 | black_carpet | [block] | "Black Carpet" |
 | black_concrete | [block] | "Black Concrete" |
 | black_concrete_powder | [block] | "Black Concrete Powder" |
@@ -98,9 +93,7 @@
 | blackstone_wall | [block] | "Blackstone Wall" |
 | blast_furnace | [block] | "Blast Furnace" |
 | blue_banner | [block] | "Blue Banner" |
-| blue_bed | [block] | "Blue Bed" |
 | blue_candle | [block] | "Blue Candle" |
-| blue_candle_cake | [block] | "Cake with Blue Candle" |
 | blue_carpet | [block] | "Blue Carpet" |
 | blue_concrete | [block] | "Blue Concrete" |
 | blue_concrete_powder | [block] | "Blue Concrete Powder" |
@@ -126,7 +119,6 @@
 | brown_banner | [block] | "Brown Banner" |
 | brown_bed | [block] | "Brown Bed" |
 | brown_candle | [block] | "Brown Candle" |
-| brown_candle_cake | [block] | "Cake with Brown Candle" |
 | brown_carpet | [block] | "Brown Carpet" |
 | brown_concrete | [block] | "Brown Concrete" |
 | brown_concrete_powder | [block] | "Brown Concrete Powder" |
@@ -157,11 +149,9 @@
 | cartography_table | [block] | "Cartography Table" |
 | carved_pumpkin | [block] | "Carved Pumpkin" |
 | cauldron | [block] | "Cauldron" |
-| cave_air | [block] | "Cave Air" |
 | cave_vines | [block] | "Cave Vines" |
 | cave_vines_plant | [block] | "Cave Vines Plant" |
 | chain | [block] | "Chain" |
-| chain_command_block | [block] | "Chain Command Block" |
 | cherry_button | [block] | "Cherry Button" |
 | cherry_door | [block] | "Cherry Door" |
 | cherry_fence | [block] | "Cherry Fence" |
@@ -180,7 +170,6 @@
 | cherry_wall_sign | [block] | "Cherry Wall Sign" |
 | cherry_wood | [block] | "Cherry Wood" |
 | chest | [block] | "Chest" |
-| chipped_anvil | [block] | "Chipped Anvil" |
 | chiseled_bookshelf | [block] | "Chiseled Bookshelf" |
 | chiseled_copper | [block] | "Chiseled Copper" |
 | chiseled_deepslate | [block] | "Chiseled Deepslate" |
@@ -210,7 +199,6 @@
 | cobblestone_wall | [block] | "Cobblestone Wall" |
 | cobweb | [block] | "Cobweb" |
 | cocoa | [block] | "Cocoa" |
-| command_block | [block] | "Command Block" |
 | comparator | [block] | "Redstone Comparator" |
 | composter | [block] | "Composter" |
 | conduit | [block] | "Conduit" |
@@ -260,7 +248,6 @@
 | cyan_banner | [block] | "Cyan Banner" |
 | cyan_bed | [block] | "Cyan Bed" |
 | cyan_candle | [block] | "Cyan Candle" |
-| cyan_candle_cake | [block] | "Cake with Cyan Candle" |
 | cyan_carpet | [block] | "Cyan Carpet" |
 | cyan_concrete | [block] | "Cyan Concrete" |
 | cyan_concrete_powder | [block] | "Cyan Concrete Powder" |
@@ -351,9 +338,6 @@
 | emerald_block | [block] | "Block of Emerald" |
 | emerald_ore | [block] | "Emerald Ore" |
 | enchanting_table | [block] | "Enchanting Table" |
-| end_gateway | [block] | "End Gateway" |
-| end_portal | [block] | "End Portal" |
-| end_portal_frame | [block] | "End Portal Frame" |
 | end_rod | [block] | "End Rod" |
 | end_stone | [block] | "End Stone" |
 | end_stone_brick_slab | [block] | "End Stone Brick Slab" |
@@ -370,9 +354,7 @@
 | exposed_cut_copper | [block] | "Exposed Cut Copper" |
 | exposed_cut_copper_slab | [block] | "Exposed Cut Copper Slab" |
 | exposed_cut_copper_stairs | [block] | "Exposed Cut Copper Stairs" |
-| farmland | [block] | "Farmland" |
 | fern | [block] | "Fern" |
-| fire | [block] | "Fire" |
 | fire_coral | [block] | "Fire Coral" |
 | fire_coral_block | [block] | "Fire Coral Block" |
 | fire_coral_fan | [block] | "Fire Coral Fan" |
@@ -402,7 +384,6 @@
 | gray_banner | [block] | "Gray Banner" |
 | gray_bed | [block] | "Gray Bed" |
 | gray_candle | [block] | "Gray Candle" |
-| gray_candle_cake | [block] | "Cake with Gray Candle" |
 | gray_carpet | [block] | "Gray Carpet" |
 | gray_concrete | [block] | "Gray Concrete" |
 | gray_concrete_powder | [block] | "Gray Concrete Powder" |
@@ -415,7 +396,6 @@
 | green_banner | [block] | "Green Banner" |
 | green_bed | [block] | "Green Bed" |
 | green_candle | [block] | "Green Candle" |
-| green_candle_cake | [block] | "Cake with Green Candle" |
 | green_carpet | [block] | "Green Carpet" |
 | green_concrete | [block] | "Green Concrete" |
 | green_concrete_powder | [block] | "Green Concrete Powder" |
@@ -424,7 +404,6 @@
 | green_stained_glass | [block] | "Green Stained Glass" |
 | green_stained_glass_pane | [block] | "Green Stained Glass Pane" |
 | green_terracotta | [block] | "Green Terracotta" |
-| green_wool | [block] | "Green Wool" |
 | grindstone | [block] | "Grindstone" |
 | hanging_roots | [block] | "Hanging Roots" |
 | hay_block | [block] | "Hay Bale" |
@@ -478,7 +457,6 @@
 | lapis_ore | [block] | "Lapis Lazuli Ore" |
 | large_amethyst_bud | [block] | "Large Amethyst Bud" |
 | large_fern | [block] | "Large Fern" |
-| lava | [block] | "Lava" |
 | lava_cauldron | [block] | "Lava Cauldron" |
 | leaf_litter | [block] | "Leaf Litter" |
 | lectern | [block] | "Lectern" |
@@ -487,7 +465,6 @@
 | light_blue_banner | [block] | "Light Blue Banner" |
 | light_blue_bed | [block] | "Light Blue Bed" |
 | light_blue_candle | [block] | "Light Blue Candle" |
-| light_blue_candle_cake | [block] | "Cake with Light Blue Candle" |
 | light_blue_carpet | [block] | "Light Blue Carpet" |
 | light_blue_concrete | [block] | "Light Blue Concrete" |
 | light_blue_concrete_powder | [block] | "Light Blue Concrete Powder" |
@@ -500,7 +477,6 @@
 | light_gray_banner | [block] | "Light Gray Banner" |
 | light_gray_bed | [block] | "Light Gray Bed" |
 | light_gray_candle | [block] | "Light Gray Candle" |
-| light_gray_candle_cake | [block] | "Cake with Light Gray Candle" |
 | light_gray_carpet | [block] | "Light Gray Carpet" |
 | light_gray_concrete | [block] | "Light Gray Concrete" |
 | light_gray_concrete_powder | [block] | "Light Gray Concrete Powder" |
@@ -518,7 +494,6 @@
 | lime_banner | [block] | "Lime Banner" |
 | lime_bed | [block] | "Lime Bed" |
 | lime_candle | [block] | "Lime Candle" |
-| lime_candle_cake | [block] | "Cake with Lime Candle" |
 | lime_carpet | [block] | "Lime Carpet" |
 | lime_concrete | [block] | "Lime Concrete" |
 | lime_concrete_powder | [block] | "Lime Concrete Powder" |
@@ -533,7 +508,6 @@
 | magenta_banner | [block] | "Magenta Banner" |
 | magenta_bed | [block] | "Magenta Bed" |
 | magenta_candle | [block] | "Magenta Candle" |
-| magenta_candle_cake | [block] | "Cake with Magenta Candle" |
 | magenta_carpet | [block] | "Magenta Carpet" |
 | magenta_concrete | [block] | "Magenta Concrete" |
 | magenta_concrete_powder | [block] | "Magenta Concrete Powder" |
@@ -623,7 +597,6 @@
 | orange_banner | [block] | "Orange Banner" |
 | orange_bed | [block] | "Orange Bed" |
 | orange_candle | [block] | "Orange Candle" |
-| orange_candle_cake | [block] | "Cake with Orange Candle" |
 | orange_carpet | [block] | "Orange Carpet" |
 | orange_concrete | [block] | "Orange Concrete" |
 | orange_concrete_powder | [block] | "Orange Concrete Powder" |
@@ -633,7 +606,6 @@
 | orange_stained_glass_pane | [block] | "Orange Stained Glass Pane" |
 | orange_terracotta | [block] | "Orange Terracotta" |
 | orange_tulip | [block] | "Orange Tulip" |
-| orange_wool | [block] | "Orange Wool" |
 | oxeye_daisy | [block] | "Oxeye Daisy" |
 | oxidized_chiseled_copper | [block] | "Oxidized Chiseled Copper" |
 | oxidized_copper | [block] | "Oxidized Copper" |
@@ -674,7 +646,6 @@
 | pink_banner | [block] | "Pink Banner" |
 | pink_bed | [block] | "Pink Bed" |
 | pink_candle | [block] | "Pink Candle" |
-| pink_candle_cake | [block] | "Cake with Pink Candle" |
 | pink_carpet | [block] | "Pink Carpet" |
 | pink_concrete | [block] | "Pink Concrete" |
 | pink_concrete_powder | [block] | "Pink Concrete Powder" |
@@ -774,9 +745,7 @@
 | pumpkin | [block] | "Pumpkin" |
 | pumpkin_stem | [block] | "Pumpkin Stem" |
 | purple_banner | [block] | "Purple Banner" |
-| purple_bed | [block] | "Purple Bed" |
 | purple_candle | [block] | "Purple Candle" |
-| purple_candle_cake | [block] | "Cake with Purple Candle" |
 | purple_carpet | [block] | "Purple Carpet" |
 | purple_concrete | [block] | "Purple Concrete" |
 | purple_concrete_powder | [block] | "Purple Concrete Powder" |
@@ -802,7 +771,6 @@
 | red_banner | [block] | "Red Banner" |
 | red_bed | [block] | "Red Bed" |
 | red_candle | [block] | "Red Candle" |
-| red_candle_cake | [block] | "Cake with Red Candle" |
 | red_carpet | [block] | "Red Carpet" |
 | red_concrete | [block] | "Red Concrete" |
 | red_concrete_powder | [block] | "Red Concrete Powder" |
@@ -1060,7 +1028,6 @@
 | white_banner | [block] | "White Banner" |
 | white_bed | [block] | "White Bed" |
 | white_candle | [block] | "White Candle" |
-| white_candle_cake | [block] | "Cake with White Candle" |
 | white_carpet | [block] | "White Carpet" |
 | white_concrete | [block] | "White Concrete" |
 | white_concrete_powder | [block] | "White Concrete Powder" |
@@ -1078,7 +1045,6 @@
 | yellow_banner | [block] | "Yellow Banner" |
 | yellow_bed | [block] | "Yellow Bed" |
 | yellow_candle | [block] | "Yellow Candle" |
-| yellow_candle_cake | [block] | "Cake with Yellow Candle" |
 | yellow_carpet | [block] | "Yellow Carpet" |
 | yellow_concrete | [block] | "Yellow Concrete" |
 | yellow_concrete_powder | [block] | "Yellow Concrete Powder" |
@@ -1119,14 +1085,12 @@
 | birch_boat | [item] | "Birch Boat" |
 | birch_chest_boat | [item] | "Birch Boat with Chest" |
 | black_bundle | [item] | "Black Bundle" |
-| black_dye | [item] | "Black Dye" |
 | blade_pottery_shard | [item] | "Blade Pottery Shard" |
 | blade_pottery_sherd | [item] | "Blade Pottery Sherd" |
 | blaze_powder | [item] | "Blaze Powder" |
 | blaze_rod | [item] | "Blaze Rod" |
 | blaze_spawn_egg | [item] | "Blaze Spawn Egg" |
 | blue_bundle | [item] | "Blue Bundle" |
-| blue_dye | [item] | "Blue Dye" |
 | blue_egg | [item] | "Blue Egg" |
 | bogged_spawn_egg | [item] | "Bogged Spawn Egg" |
 | bolt_armor_trim_smithing_template | [item] | "Smithing Template" |
@@ -1143,7 +1107,6 @@
 | brewer_pottery_sherd | [item] | "Brewer Pottery Sherd" |
 | brick | [item] | "Brick" |
 | brown_bundle | [item] | "Brown Bundle" |
-| brown_dye | [item] | "Brown Dye" |
 | brown_egg | [item] | "Brown Egg" |
 | brush | [item] | "Brush" |
 | bucket | [item] | "Bucket" |
@@ -1191,7 +1154,6 @@
 | creeper_spawn_egg | [item] | "Creeper Spawn Egg" |
 | crossbow | [item] | "Crossbow" |
 | cyan_bundle | [item] | "Cyan Bundle" |
-| cyan_dye | [item] | "Cyan Dye" |
 | danger_pottery_shard | [item] | "Danger Pottery Shard" |
 | danger_pottery_sherd | [item] | "Danger Pottery Sherd" |
 | dark_oak_boat | [item] | "Dark Oak Boat" |
@@ -1279,9 +1241,7 @@
 | golden_shovel | [item] | "Golden Shovel" |
 | golden_sword | [item] | "Golden Sword" |
 | gray_bundle | [item] | "Gray Bundle" |
-| gray_dye | [item] | "Gray Dye" |
 | green_bundle | [item] | "Green Bundle" |
-| green_dye | [item] | "Green Dye" |
 | guardian_spawn_egg | [item] | "Guardian Spawn Egg" |
 | gunpowder | [item] | "Gunpowder" |
 | guster_banner_pattern | [item] | "Banner Pattern" |
@@ -1328,17 +1288,13 @@
 | leather_horse_armor | [item] | "Leather Horse Armor" |
 | leather_leggings | [item] | "Leather Pants" |
 | light_blue_bundle | [item] | "Light Blue Bundle" |
-| light_blue_dye | [item] | "Light Blue Dye" |
 | light_gray_bundle | [item] | "Light Gray Bundle" |
-| light_gray_dye | [item] | "Light Gray Dye" |
 | lime_bundle | [item] | "Lime Bundle" |
-| lime_dye | [item] | "Lime Dye" |
 | lingering_potion | [item] | "Lingering Potion" |
 | llama_spawn_egg | [item] | "Llama Spawn Egg" |
 | lodestone_compass | [item] | "Lodestone Compass" |
 | mace | [item] | "Mace" |
 | magenta_bundle | [item] | "Magenta Bundle" |
-| magenta_dye | [item] | "Magenta Dye" |
 | magma_cream | [item] | "Magma Cream" |
 | magma_cube_spawn_egg | [item] | "Magma Cube Spawn Egg" |
 | mangrove_boat | [item] | "Mangrove Boat" |
@@ -1398,7 +1354,6 @@
 | ominous_bottle | [item] | "Ominous Bottle" |
 | ominous_trial_key | [item] | "Ominous Trial Key" |
 | orange_bundle | [item] | "Orange Bundle" |
-| orange_dye | [item] | "Orange Dye" |
 | painting | [item] | "Painting" |
 | pale_oak_boat | [item] | "Pale Oak Boat" |
 | pale_oak_chest_boat | [item] | "Pale Oak Boat with Chest" |
@@ -1413,7 +1368,6 @@
 | piglin_spawn_egg | [item] | "Piglin Spawn Egg" |
 | pillager_spawn_egg | [item] | "Pillager Spawn Egg" |
 | pink_bundle | [item] | "Pink Bundle" |
-| pink_dye | [item] | "Pink Dye" |
 | pitcher_pod | [item] | "Pitcher Pod" |
 | plenty_pottery_shard | [item] | "Plenty Pottery Shard" |
 | plenty_pottery_sherd | [item] | "Plenty Pottery Sherd" |
@@ -1438,7 +1392,6 @@
 | pumpkin_pie | [item] | "Pumpkin Pie" |
 | pumpkin_seeds | [item] | "Pumpkin Seeds" |
 | purple_bundle | [item] | "Purple Bundle" |
-| purple_dye | [item] | "Purple Dye" |
 | quartz | [item] | "Nether Quartz" |
 | rabbit | [item] | "Raw Rabbit" |
 | rabbit_foot | [item] | "Rabbit's Foot" |
@@ -1452,7 +1405,6 @@
 | raw_iron | [item] | "Raw Iron" |
 | recovery_compass | [item] | "Recovery Compass" |
 | red_bundle | [item] | "Red Bundle" |
-| red_dye | [item] | "Red Dye" |
 | redstone | [item] | "Redstone Dust" |
 | resin_brick | [item] | "Resin Brick" |
 | rib_armor_trim_smithing_template | [item] | "Smithing Template" |
@@ -1540,7 +1492,6 @@
 | wayfinder_armor_trim_smithing_template | [item] | "Smithing Template" |
 | wheat_seeds | [item] | "Wheat Seeds" |
 | white_bundle | [item] | "White Bundle" |
-| white_dye | [item] | "White Dye" |
 | wild_armor_trim_smithing_template | [item] | "Smithing Template" |
 | wind_charge | [item] | "Wind Charge" |
 | witch_spawn_egg | [item] | "Witch Spawn Egg" |
@@ -1556,7 +1507,6 @@
 | writable_book | [item] | "Book and Quill" |
 | written_book | [item] | "Written Book" |
 | yellow_bundle | [item] | "Yellow Bundle" |
-| yellow_dye | [item] | "Yellow Dye" |
 | zoglin_spawn_egg | [item] | "Zoglin Spawn Egg" |
 | zombie_horse_spawn_egg | [item] | "Zombie Horse Spawn Egg" |
 | zombie_spawn_egg | [item] | "Zombie Spawn Egg" |
@@ -1566,4 +1516,57 @@
 | ID | Type | Name |
 |---|:---:|---|
 | air | [block] | "Air" |
+| attached_melon_stem | [block] | "Attached Melon Stem" |
+| attached_pumpkin_stem | [block] | "Attached Pumpkin Stem" |
 | barrier | [block] | "Barrier" |
+| bedrock | [block] | "Bedrock" |
+| big_dripleaf_stem | [block] | "Big Dripleaf Stem" |
+| black_candle_cake | [block] | "Cake with Black Candle" |
+| blue_candle_cake | [block] | "Cake with Blue Candle" |
+| brown_candle_cake | [block] | "Cake with Brown Candle" |
+| cave_air | [block] | "Cave Air" |
+| chain_command_block | [block] | "Chain Command Block" |
+| chipped_anvil | [block] | "Chipped Anvil" |
+| command_block | [block] | "Command Block" |
+| cyan_candle_cake | [block] | "Cake with Cyan Candle" |
+| end_gateway | [block] | "End Gateway" |
+| end_portal | [block] | "End Portal" |
+| end_portal_frame | [block] | "End Portal Frame" |
+| farmland | [block] | "Farmland" |
+| fire | [block] | "Fire" |
+| gray_candle_cake | [block] | "Cake with Gray Candle" |
+| green_candle_cake | [block] | "Cake with Green Candle" |
+| lava | [block] | "Lava" |
+| light_blue_candle_cake | [block] | "Cake with Light Blue Candle" |
+| light_gray_candle_cake | [block] | "Cake with Light Gray Candle" |
+| lime_candle_cake | [block] | "Cake with Lime Candle" |
+| magenta_candle_cake | [block] | "Cake with Magenta Candle" |
+| orange_candle_cake | [block] | "Cake with Orange Candle" |
+| pink_candle_cake | [block] | "Cake with Pink Candle" |
+| purple_candle_cake | [block] | "Cake with Purple Candle" |
+| red_candle_cake | [block] | "Cake with Red Candle" |
+| white_candle_cake | [block] | "Cake with White Candle" |
+| yellow_candle_cake | [block] | "Cake with Yellow Candle" |
+## Included
+| ID | Type | Name |
+|---|:---:|---|
+| blue_bed | [block] | "Blue Bed" |
+| green_wool | [block] | "Green Wool" |
+| orange_wool | [block] | "Orange Wool" |
+| purple_bed | [block] | "Purple Bed" |
+| black_dye | [item] | "Black Dye" |
+| blue_dye | [item] | "Blue Dye" |
+| brown_dye | [item] | "Brown Dye" |
+| cyan_dye | [item] | "Cyan Dye" |
+| gray_dye | [item] | "Gray Dye" |
+| green_dye | [item] | "Green Dye" |
+| light_blue_dye | [item] | "Light Blue Dye" |
+| light_gray_dye | [item] | "Light Gray Dye" |
+| lime_dye | [item] | "Lime Dye" |
+| magenta_dye | [item] | "Magenta Dye" |
+| orange_dye | [item] | "Orange Dye" |
+| pink_dye | [item] | "Pink Dye" |
+| purple_dye | [item] | "Purple Dye" |
+| red_dye | [item] | "Red Dye" |
+| white_dye | [item] | "White Dye" |
+| yellow_dye | [item] | "Yellow Dye" |

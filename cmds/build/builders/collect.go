@@ -3,6 +3,7 @@ package builders
 import (
 	"fmt"
 	"item_insanity/cmds/build/data"
+	"item_insanity/common"
 )
 
 type CollectBuilder struct{}
@@ -37,7 +38,7 @@ func (b CollectBuilder) buildDescription(data *data.Collect) []ColoredText {
 	builder := DisplayBuilder{}
 
 	return []ColoredText{
-		builder.BuildText(fmt.Sprintf("All the %s\n", idToUpperSpaced(data.Name)), b.frameColor(data.Display.Frame)),
+		builder.BuildText(fmt.Sprintf("All the %s\n", common.ToUpperSpaced(data.Name)), b.frameColor(data.Display.Frame)),
 		builder.BuildText(fmt.Sprintf("|- %s", data.Display.Description), COLOR_WHITE),
 	}
 }

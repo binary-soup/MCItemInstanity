@@ -95,7 +95,7 @@ func (cmd BuildCommand) runBuild() error {
 		return err
 	}
 
-	err = cmd.buildCollectAdvancements(cmd.cfg.StaticDataPath(), "tree")
+	err = cmd.buildCollectAdvancements(cmd.cfg.StaticDataPath(), common.ITEM_TREE_ROOT)
 	if err != nil {
 		return err
 	}
