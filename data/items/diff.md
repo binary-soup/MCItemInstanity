@@ -31,36 +31,13 @@
 | birch_sapling | [block] | "Birch Sapling" |
 | birch_wall_hanging_sign | [block] | "Birch Wall Hanging Sign" |
 | birch_wall_sign | [block] | "Birch Wall Sign" |
-| black_banner | [block] | "Black Banner" |
-| black_bed | [block] | "Black Bed" |
-| black_candle | [block] | "Black Candle" |
-| black_carpet | [block] | "Black Carpet" |
-| black_concrete | [block] | "Black Concrete" |
-| black_concrete_powder | [block] | "Black Concrete Powder" |
-| black_glazed_terracotta | [block] | "Black Glazed Terracotta" |
-| black_shulker_box | [block] | "Black Shulker Box" |
-| black_stained_glass | [block] | "Black Stained Glass" |
-| black_stained_glass_pane | [block] | "Black Stained Glass Pane" |
-| black_terracotta | [block] | "Black Terracotta" |
-| black_wool | [block] | "Black Wool" |
 | blackstone | [block] | "Blackstone" |
 | blackstone_slab | [block] | "Blackstone Slab" |
 | blackstone_stairs | [block] | "Blackstone Stairs" |
 | blackstone_wall | [block] | "Blackstone Wall" |
 | blast_furnace | [block] | "Blast Furnace" |
-| blue_banner | [block] | "Blue Banner" |
-| blue_candle | [block] | "Blue Candle" |
-| blue_carpet | [block] | "Blue Carpet" |
-| blue_concrete | [block] | "Blue Concrete" |
-| blue_concrete_powder | [block] | "Blue Concrete Powder" |
-| blue_glazed_terracotta | [block] | "Blue Glazed Terracotta" |
 | blue_ice | [block] | "Blue Ice" |
 | blue_orchid | [block] | "Blue Orchid" |
-| blue_shulker_box | [block] | "Blue Shulker Box" |
-| blue_stained_glass | [block] | "Blue Stained Glass" |
-| blue_stained_glass_pane | [block] | "Blue Stained Glass Pane" |
-| blue_terracotta | [block] | "Blue Terracotta" |
-| blue_wool | [block] | "Blue Wool" |
 | bone_block | [block] | "Bone Block" |
 | bookshelf | [block] | "Bookshelf" |
 | brain_coral | [block] | "Brain Coral" |
@@ -72,20 +49,8 @@
 | brick_stairs | [block] | "Brick Stairs" |
 | brick_wall | [block] | "Brick Wall" |
 | bricks | [block] | "Bricks" |
-| brown_banner | [block] | "Brown Banner" |
-| brown_bed | [block] | "Brown Bed" |
-| brown_candle | [block] | "Brown Candle" |
-| brown_carpet | [block] | "Brown Carpet" |
-| brown_concrete | [block] | "Brown Concrete" |
-| brown_concrete_powder | [block] | "Brown Concrete Powder" |
-| brown_glazed_terracotta | [block] | "Brown Glazed Terracotta" |
 | brown_mushroom | [block] | "Brown Mushroom" |
 | brown_mushroom_block | [block] | "Brown Mushroom Block" |
-| brown_shulker_box | [block] | "Brown Shulker Box" |
-| brown_stained_glass | [block] | "Brown Stained Glass" |
-| brown_stained_glass_pane | [block] | "Brown Stained Glass Pane" |
-| brown_terracotta | [block] | "Brown Terracotta" |
-| brown_wool | [block] | "Brown Wool" |
 | bubble_column | [block] | "Bubble Column" |
 | bubble_coral | [block] | "Bubble Coral" |
 | bubble_coral_block | [block] | "Bubble Coral Block" |
@@ -99,7 +64,6 @@
 | calcite | [block] | "Calcite" |
 | calibrated_sculk_sensor | [block] | "Calibrated Sculk Sensor" |
 | campfire | [block] | "Campfire" |
-| candle | [block] | "Candle" |
 | candle_cake | [block] | "Cake with Candle" |
 | carrots | [block] | "Carrots" |
 | cartography_table | [block] | "Cartography Table" |
@@ -174,18 +138,6 @@
 | cut_red_sandstone_slab | [block] | "Cut Red Sandstone Slab" |
 | cut_sandstone | [block] | "Cut Sandstone" |
 | cut_sandstone_slab | [block] | "Cut Sandstone Slab" |
-| cyan_banner | [block] | "Cyan Banner" |
-| cyan_bed | [block] | "Cyan Bed" |
-| cyan_candle | [block] | "Cyan Candle" |
-| cyan_carpet | [block] | "Cyan Carpet" |
-| cyan_concrete | [block] | "Cyan Concrete" |
-| cyan_concrete_powder | [block] | "Cyan Concrete Powder" |
-| cyan_glazed_terracotta | [block] | "Cyan Glazed Terracotta" |
-| cyan_shulker_box | [block] | "Cyan Shulker Box" |
-| cyan_stained_glass | [block] | "Cyan Stained Glass" |
-| cyan_stained_glass_pane | [block] | "Cyan Stained Glass Pane" |
-| cyan_terracotta | [block] | "Cyan Terracotta" |
-| cyan_wool | [block] | "Cyan Wool" |
 | damaged_anvil | [block] | "Damaged Anvil" |
 | dandelion | [block] | "Dandelion" |
 | dark_oak_leaves | [block] | "Dark Oak Leaves" |
@@ -284,8 +236,6 @@
 | frosted_ice | [block] | "Frosted Ice" |
 | furnace | [block] | "Furnace" |
 | gilded_blackstone | [block] | "Gilded Blackstone" |
-| glass | [block] | "Glass" |
-| glass_pane | [block] | "Glass Pane" |
 | glow_lichen | [block] | "Glow Lichen" |
 | glowstone | [block] | "Glowstone" |
 | gold_block | [block] | "Block of Gold" |
@@ -297,29 +247,6 @@
 | grass | [block] | "Grass" |
 | grass_block | [block] | "Grass Block" |
 | gravel | [block] | "Gravel" |
-| gray_banner | [block] | "Gray Banner" |
-| gray_bed | [block] | "Gray Bed" |
-| gray_candle | [block] | "Gray Candle" |
-| gray_carpet | [block] | "Gray Carpet" |
-| gray_concrete | [block] | "Gray Concrete" |
-| gray_concrete_powder | [block] | "Gray Concrete Powder" |
-| gray_glazed_terracotta | [block] | "Gray Glazed Terracotta" |
-| gray_shulker_box | [block] | "Gray Shulker Box" |
-| gray_stained_glass | [block] | "Gray Stained Glass" |
-| gray_stained_glass_pane | [block] | "Gray Stained Glass Pane" |
-| gray_terracotta | [block] | "Gray Terracotta" |
-| gray_wool | [block] | "Gray Wool" |
-| green_banner | [block] | "Green Banner" |
-| green_bed | [block] | "Green Bed" |
-| green_candle | [block] | "Green Candle" |
-| green_carpet | [block] | "Green Carpet" |
-| green_concrete | [block] | "Green Concrete" |
-| green_concrete_powder | [block] | "Green Concrete Powder" |
-| green_glazed_terracotta | [block] | "Green Glazed Terracotta" |
-| green_shulker_box | [block] | "Green Shulker Box" |
-| green_stained_glass | [block] | "Green Stained Glass" |
-| green_stained_glass_pane | [block] | "Green Stained Glass Pane" |
-| green_terracotta | [block] | "Green Terracotta" |
 | grindstone | [block] | "Grindstone" |
 | hanging_roots | [block] | "Hanging Roots" |
 | hay_block | [block] | "Hay Bale" |
@@ -365,61 +292,13 @@
 | lectern | [block] | "Lectern" |
 | lever | [block] | "Lever" |
 | light | [block] | "Light" |
-| light_blue_banner | [block] | "Light Blue Banner" |
-| light_blue_bed | [block] | "Light Blue Bed" |
-| light_blue_candle | [block] | "Light Blue Candle" |
-| light_blue_carpet | [block] | "Light Blue Carpet" |
-| light_blue_concrete | [block] | "Light Blue Concrete" |
-| light_blue_concrete_powder | [block] | "Light Blue Concrete Powder" |
-| light_blue_glazed_terracotta | [block] | "Light Blue Glazed Terracotta" |
-| light_blue_shulker_box | [block] | "Light Blue Shulker Box" |
-| light_blue_stained_glass | [block] | "Light Blue Stained Glass" |
-| light_blue_stained_glass_pane | [block] | "Light Blue Stained Glass Pane" |
-| light_blue_terracotta | [block] | "Light Blue Terracotta" |
-| light_blue_wool | [block] | "Light Blue Wool" |
-| light_gray_banner | [block] | "Light Gray Banner" |
-| light_gray_bed | [block] | "Light Gray Bed" |
-| light_gray_candle | [block] | "Light Gray Candle" |
-| light_gray_carpet | [block] | "Light Gray Carpet" |
-| light_gray_concrete | [block] | "Light Gray Concrete" |
-| light_gray_concrete_powder | [block] | "Light Gray Concrete Powder" |
-| light_gray_glazed_terracotta | [block] | "Light Gray Glazed Terracotta" |
-| light_gray_shulker_box | [block] | "Light Gray Shulker Box" |
-| light_gray_stained_glass | [block] | "Light Gray Stained Glass" |
-| light_gray_stained_glass_pane | [block] | "Light Gray Stained Glass Pane" |
-| light_gray_terracotta | [block] | "Light Gray Terracotta" |
-| light_gray_wool | [block] | "Light Gray Wool" |
 | light_weighted_pressure_plate | [block] | "Light Weighted Pressure Plate" |
 | lightning_rod | [block] | "Lightning Rod" |
 | lilac | [block] | "Lilac" |
 | lily_of_the_valley | [block] | "Lily of the Valley" |
 | lily_pad | [block] | "Lily Pad" |
-| lime_banner | [block] | "Lime Banner" |
-| lime_bed | [block] | "Lime Bed" |
-| lime_candle | [block] | "Lime Candle" |
-| lime_carpet | [block] | "Lime Carpet" |
-| lime_concrete | [block] | "Lime Concrete" |
-| lime_concrete_powder | [block] | "Lime Concrete Powder" |
-| lime_glazed_terracotta | [block] | "Lime Glazed Terracotta" |
-| lime_shulker_box | [block] | "Lime Shulker Box" |
-| lime_stained_glass | [block] | "Lime Stained Glass" |
-| lime_stained_glass_pane | [block] | "Lime Stained Glass Pane" |
-| lime_terracotta | [block] | "Lime Terracotta" |
-| lime_wool | [block] | "Lime Wool" |
 | lodestone | [block] | "Lodestone" |
 | loom | [block] | "Loom" |
-| magenta_banner | [block] | "Magenta Banner" |
-| magenta_bed | [block] | "Magenta Bed" |
-| magenta_candle | [block] | "Magenta Candle" |
-| magenta_carpet | [block] | "Magenta Carpet" |
-| magenta_concrete | [block] | "Magenta Concrete" |
-| magenta_concrete_powder | [block] | "Magenta Concrete Powder" |
-| magenta_glazed_terracotta | [block] | "Magenta Glazed Terracotta" |
-| magenta_shulker_box | [block] | "Magenta Shulker Box" |
-| magenta_stained_glass | [block] | "Magenta Stained Glass" |
-| magenta_stained_glass_pane | [block] | "Magenta Stained Glass Pane" |
-| magenta_terracotta | [block] | "Magenta Terracotta" |
-| magenta_wool | [block] | "Magenta Wool" |
 | magma_block | [block] | "Magma Block" |
 | mangrove_leaves | [block] | "Mangrove Leaves" |
 | mangrove_propagule | [block] | "Mangrove Propagule" |
@@ -471,17 +350,6 @@
 | ochre_froglight | [block] | "Ochre Froglight" |
 | ominous_banner | [block] | "Ominous Banner" |
 | open_eyeblossom | [block] | "Open Eyeblossom" |
-| orange_banner | [block] | "Orange Banner" |
-| orange_bed | [block] | "Orange Bed" |
-| orange_candle | [block] | "Orange Candle" |
-| orange_carpet | [block] | "Orange Carpet" |
-| orange_concrete | [block] | "Orange Concrete" |
-| orange_concrete_powder | [block] | "Orange Concrete Powder" |
-| orange_glazed_terracotta | [block] | "Orange Glazed Terracotta" |
-| orange_shulker_box | [block] | "Orange Shulker Box" |
-| orange_stained_glass | [block] | "Orange Stained Glass" |
-| orange_stained_glass_pane | [block] | "Orange Stained Glass Pane" |
-| orange_terracotta | [block] | "Orange Terracotta" |
 | orange_tulip | [block] | "Orange Tulip" |
 | oxeye_daisy | [block] | "Oxeye Daisy" |
 | oxidized_chiseled_copper | [block] | "Oxidized Chiseled Copper" |
@@ -507,20 +375,8 @@
 | petrified_oak_slab | [block] | "Petrified Oak Slab" |
 | piglin_head | [block] | "Piglin Head" |
 | piglin_wall_head | [block] | "Piglin Wall Head" |
-| pink_banner | [block] | "Pink Banner" |
-| pink_bed | [block] | "Pink Bed" |
-| pink_candle | [block] | "Pink Candle" |
-| pink_carpet | [block] | "Pink Carpet" |
-| pink_concrete | [block] | "Pink Concrete" |
-| pink_concrete_powder | [block] | "Pink Concrete Powder" |
-| pink_glazed_terracotta | [block] | "Pink Glazed Terracotta" |
 | pink_petals | [block] | "Pink Petals" |
-| pink_shulker_box | [block] | "Pink Shulker Box" |
-| pink_stained_glass | [block] | "Pink Stained Glass" |
-| pink_stained_glass_pane | [block] | "Pink Stained Glass Pane" |
-| pink_terracotta | [block] | "Pink Terracotta" |
 | pink_tulip | [block] | "Pink Tulip" |
-| pink_wool | [block] | "Pink Wool" |
 | piston | [block] | "Piston" |
 | piston_head | [block] | "Piston Head" |
 | pitcher_crop | [block] | "Pitcher Crop" |
@@ -608,17 +464,6 @@
 | prismarine_wall | [block] | "Prismarine Wall" |
 | pumpkin | [block] | "Pumpkin" |
 | pumpkin_stem | [block] | "Pumpkin Stem" |
-| purple_banner | [block] | "Purple Banner" |
-| purple_candle | [block] | "Purple Candle" |
-| purple_carpet | [block] | "Purple Carpet" |
-| purple_concrete | [block] | "Purple Concrete" |
-| purple_concrete_powder | [block] | "Purple Concrete Powder" |
-| purple_glazed_terracotta | [block] | "Purple Glazed Terracotta" |
-| purple_shulker_box | [block] | "Purple Shulker Box" |
-| purple_stained_glass | [block] | "Purple Stained Glass" |
-| purple_stained_glass_pane | [block] | "Purple Stained Glass Pane" |
-| purple_terracotta | [block] | "Purple Terracotta" |
-| purple_wool | [block] | "Purple Wool" |
 | purpur_block | [block] | "Purpur Block" |
 | purpur_pillar | [block] | "Purpur Pillar" |
 | purpur_slab | [block] | "Purpur Slab" |
@@ -632,13 +477,6 @@
 | raw_copper_block | [block] | "Block of Raw Copper" |
 | raw_gold_block | [block] | "Block of Raw Gold" |
 | raw_iron_block | [block] | "Block of Raw Iron" |
-| red_banner | [block] | "Red Banner" |
-| red_bed | [block] | "Red Bed" |
-| red_candle | [block] | "Red Candle" |
-| red_carpet | [block] | "Red Carpet" |
-| red_concrete | [block] | "Red Concrete" |
-| red_concrete_powder | [block] | "Red Concrete Powder" |
-| red_glazed_terracotta | [block] | "Red Glazed Terracotta" |
 | red_mushroom | [block] | "Red Mushroom" |
 | red_mushroom_block | [block] | "Red Mushroom Block" |
 | red_nether_brick_slab | [block] | "Red Nether Brick Slab" |
@@ -650,12 +488,7 @@
 | red_sandstone_slab | [block] | "Red Sandstone Slab" |
 | red_sandstone_stairs | [block] | "Red Sandstone Stairs" |
 | red_sandstone_wall | [block] | "Red Sandstone Wall" |
-| red_shulker_box | [block] | "Red Shulker Box" |
-| red_stained_glass | [block] | "Red Stained Glass" |
-| red_stained_glass_pane | [block] | "Red Stained Glass Pane" |
-| red_terracotta | [block] | "Red Terracotta" |
 | red_tulip | [block] | "Red Tulip" |
-| red_wool | [block] | "Red Wool" |
 | redstone_block | [block] | "Block of Redstone" |
 | redstone_lamp | [block] | "Redstone Lamp" |
 | redstone_ore | [block] | "Redstone Ore" |
@@ -692,7 +525,6 @@
 | short_dry_grass | [block] | "Short Dry Grass" |
 | short_grass | [block] | "Short Grass" |
 | shroomlight | [block] | "Shroomlight" |
-| shulker_box | [block] | "Shulker Box" |
 | skeleton_skull | [block] | "Skeleton Skull" |
 | skeleton_wall_skull | [block] | "Skeleton Wall Skull" |
 | slime_block | [block] | "Slime Block" |
@@ -751,7 +583,6 @@
 | tall_grass | [block] | "Tall Grass" |
 | tall_seagrass | [block] | "Tall Seagrass" |
 | target | [block] | "Target" |
-| terracotta | [block] | "Terracotta" |
 | test_block | [block] | "Test Block" |
 | test_instance_block | [block] | "Test Instance Block" |
 | tinted_glass | [block] | "Tinted Glass" |
@@ -840,35 +671,11 @@
 | weeping_vines_plant | [block] | "Weeping Vines Plant" |
 | wet_sponge | [block] | "Wet Sponge" |
 | wheat | [block] | "Wheat Crops" |
-| white_banner | [block] | "White Banner" |
-| white_bed | [block] | "White Bed" |
-| white_candle | [block] | "White Candle" |
-| white_carpet | [block] | "White Carpet" |
-| white_concrete | [block] | "White Concrete" |
-| white_concrete_powder | [block] | "White Concrete Powder" |
-| white_glazed_terracotta | [block] | "White Glazed Terracotta" |
-| white_shulker_box | [block] | "White Shulker Box" |
-| white_stained_glass | [block] | "White Stained Glass" |
-| white_stained_glass_pane | [block] | "White Stained Glass Pane" |
-| white_terracotta | [block] | "White Terracotta" |
 | white_tulip | [block] | "White Tulip" |
-| white_wool | [block] | "White Wool" |
 | wildflowers | [block] | "Wildflowers" |
 | wither_rose | [block] | "Wither Rose" |
 | wither_skeleton_skull | [block] | "Wither Skeleton Skull" |
 | wither_skeleton_wall_skull | [block] | "Wither Skeleton Wall Skull" |
-| yellow_banner | [block] | "Yellow Banner" |
-| yellow_bed | [block] | "Yellow Bed" |
-| yellow_candle | [block] | "Yellow Candle" |
-| yellow_carpet | [block] | "Yellow Carpet" |
-| yellow_concrete | [block] | "Yellow Concrete" |
-| yellow_concrete_powder | [block] | "Yellow Concrete Powder" |
-| yellow_glazed_terracotta | [block] | "Yellow Glazed Terracotta" |
-| yellow_shulker_box | [block] | "Yellow Shulker Box" |
-| yellow_stained_glass | [block] | "Yellow Stained Glass" |
-| yellow_stained_glass_pane | [block] | "Yellow Stained Glass Pane" |
-| yellow_terracotta | [block] | "Yellow Terracotta" |
-| yellow_wool | [block] | "Yellow Wool" |
 | zombie_head | [block] | "Zombie Head" |
 | zombie_wall_head | [block] | "Zombie Wall Head" |
 | allay_spawn_egg | [item] | "Allay Spawn Egg" |
@@ -893,13 +700,11 @@
 | beetroot | [item] | "Beetroot" |
 | beetroot_seeds | [item] | "Beetroot Seeds" |
 | beetroot_soup | [item] | "Beetroot Soup" |
-| black_bundle | [item] | "Black Bundle" |
 | blade_pottery_shard | [item] | "Blade Pottery Shard" |
 | blade_pottery_sherd | [item] | "Blade Pottery Sherd" |
 | blaze_powder | [item] | "Blaze Powder" |
 | blaze_rod | [item] | "Blaze Rod" |
 | blaze_spawn_egg | [item] | "Blaze Spawn Egg" |
-| blue_bundle | [item] | "Blue Bundle" |
 | blue_egg | [item] | "Blue Egg" |
 | bogged_spawn_egg | [item] | "Bogged Spawn Egg" |
 | bolt_armor_trim_smithing_template | [item] | "Smithing Template" |
@@ -915,11 +720,9 @@
 | brewer_pottery_shard | [item] | "Brewer Pottery Shard" |
 | brewer_pottery_sherd | [item] | "Brewer Pottery Sherd" |
 | brick | [item] | "Brick" |
-| brown_bundle | [item] | "Brown Bundle" |
 | brown_egg | [item] | "Brown Egg" |
 | brush | [item] | "Brush" |
 | bucket | [item] | "Bucket" |
-| bundle | [item] | "Bundle" |
 | burn_pottery_shard | [item] | "Burn Pottery Shard" |
 | burn_pottery_sherd | [item] | "Burn Pottery Sherd" |
 | camel_spawn_egg | [item] | "Camel Spawn Egg" |
@@ -960,7 +763,6 @@
 | creeper_banner_pattern | [item] | "Banner Pattern" |
 | creeper_spawn_egg | [item] | "Creeper Spawn Egg" |
 | crossbow | [item] | "Crossbow" |
-| cyan_bundle | [item] | "Cyan Bundle" |
 | danger_pottery_shard | [item] | "Danger Pottery Shard" |
 | danger_pottery_sherd | [item] | "Danger Pottery Sherd" |
 | debug_stick | [item] | "Debug Stick" |
@@ -1043,8 +845,6 @@
 | golden_pickaxe | [item] | "Golden Pickaxe" |
 | golden_shovel | [item] | "Golden Shovel" |
 | golden_sword | [item] | "Golden Sword" |
-| gray_bundle | [item] | "Gray Bundle" |
-| green_bundle | [item] | "Green Bundle" |
 | guardian_spawn_egg | [item] | "Guardian Spawn Egg" |
 | gunpowder | [item] | "Gunpowder" |
 | guster_banner_pattern | [item] | "Banner Pattern" |
@@ -1087,14 +887,10 @@
 | leather_helmet | [item] | "Leather Cap" |
 | leather_horse_armor | [item] | "Leather Horse Armor" |
 | leather_leggings | [item] | "Leather Pants" |
-| light_blue_bundle | [item] | "Light Blue Bundle" |
-| light_gray_bundle | [item] | "Light Gray Bundle" |
-| lime_bundle | [item] | "Lime Bundle" |
 | lingering_potion | [item] | "Lingering Potion" |
 | llama_spawn_egg | [item] | "Llama Spawn Egg" |
 | lodestone_compass | [item] | "Lodestone Compass" |
 | mace | [item] | "Mace" |
-| magenta_bundle | [item] | "Magenta Bundle" |
 | magma_cream | [item] | "Magma Cream" |
 | magma_cube_spawn_egg | [item] | "Magma Cube Spawn Egg" |
 | map | [item] | "Empty Map" |
@@ -1148,7 +944,6 @@
 | ocelot_spawn_egg | [item] | "Ocelot Spawn Egg" |
 | ominous_bottle | [item] | "Ominous Bottle" |
 | ominous_trial_key | [item] | "Ominous Trial Key" |
-| orange_bundle | [item] | "Orange Bundle" |
 | painting | [item] | "Painting" |
 | panda_spawn_egg | [item] | "Panda Spawn Egg" |
 | paper | [item] | "Paper" |
@@ -1160,7 +955,6 @@
 | piglin_brute_spawn_egg | [item] | "Piglin Brute Spawn Egg" |
 | piglin_spawn_egg | [item] | "Piglin Spawn Egg" |
 | pillager_spawn_egg | [item] | "Pillager Spawn Egg" |
-| pink_bundle | [item] | "Pink Bundle" |
 | pitcher_pod | [item] | "Pitcher Pod" |
 | plenty_pottery_shard | [item] | "Plenty Pottery Shard" |
 | plenty_pottery_sherd | [item] | "Plenty Pottery Sherd" |
@@ -1184,7 +978,6 @@
 | pufferfish_spawn_egg | [item] | "Pufferfish Spawn Egg" |
 | pumpkin_pie | [item] | "Pumpkin Pie" |
 | pumpkin_seeds | [item] | "Pumpkin Seeds" |
-| purple_bundle | [item] | "Purple Bundle" |
 | quartz | [item] | "Nether Quartz" |
 | rabbit | [item] | "Raw Rabbit" |
 | rabbit_foot | [item] | "Rabbit's Foot" |
@@ -1197,7 +990,6 @@
 | raw_gold | [item] | "Raw Gold" |
 | raw_iron | [item] | "Raw Iron" |
 | recovery_compass | [item] | "Recovery Compass" |
-| red_bundle | [item] | "Red Bundle" |
 | redstone | [item] | "Redstone Dust" |
 | resin_brick | [item] | "Resin Brick" |
 | rib_armor_trim_smithing_template | [item] | "Smithing Template" |
@@ -1281,7 +1073,6 @@
 | water_bucket | [item] | "Water Bucket" |
 | wayfinder_armor_trim_smithing_template | [item] | "Smithing Template" |
 | wheat_seeds | [item] | "Wheat Seeds" |
-| white_bundle | [item] | "White Bundle" |
 | wild_armor_trim_smithing_template | [item] | "Smithing Template" |
 | wind_charge | [item] | "Wind Charge" |
 | witch_spawn_egg | [item] | "Witch Spawn Egg" |
@@ -1295,7 +1086,6 @@
 | wooden_sword | [item] | "Wooden Sword" |
 | writable_book | [item] | "Book and Quill" |
 | written_book | [item] | "Written Book" |
-| yellow_bundle | [item] | "Yellow Bundle" |
 | zoglin_spawn_egg | [item] | "Zoglin Spawn Egg" |
 | zombie_horse_spawn_egg | [item] | "Zombie Horse Spawn Egg" |
 | zombie_spawn_egg | [item] | "Zombie Spawn Egg" |
@@ -1383,7 +1173,43 @@
 | birch_stairs | [block] | "Birch Stairs" |
 | birch_trapdoor | [block] | "Birch Trapdoor" |
 | birch_wood | [block] | "Birch Wood" |
+| black_banner | [block] | "Black Banner" |
+| black_bed | [block] | "Black Bed" |
+| black_candle | [block] | "Black Candle" |
+| black_carpet | [block] | "Black Carpet" |
+| black_concrete | [block] | "Black Concrete" |
+| black_concrete_powder | [block] | "Black Concrete Powder" |
+| black_glazed_terracotta | [block] | "Black Glazed Terracotta" |
+| black_shulker_box | [block] | "Black Shulker Box" |
+| black_stained_glass | [block] | "Black Stained Glass" |
+| black_stained_glass_pane | [block] | "Black Stained Glass Pane" |
+| black_terracotta | [block] | "Black Terracotta" |
+| black_wool | [block] | "Black Wool" |
+| blue_banner | [block] | "Blue Banner" |
 | blue_bed | [block] | "Blue Bed" |
+| blue_candle | [block] | "Blue Candle" |
+| blue_carpet | [block] | "Blue Carpet" |
+| blue_concrete | [block] | "Blue Concrete" |
+| blue_concrete_powder | [block] | "Blue Concrete Powder" |
+| blue_glazed_terracotta | [block] | "Blue Glazed Terracotta" |
+| blue_shulker_box | [block] | "Blue Shulker Box" |
+| blue_stained_glass | [block] | "Blue Stained Glass" |
+| blue_stained_glass_pane | [block] | "Blue Stained Glass Pane" |
+| blue_terracotta | [block] | "Blue Terracotta" |
+| blue_wool | [block] | "Blue Wool" |
+| brown_banner | [block] | "Brown Banner" |
+| brown_bed | [block] | "Brown Bed" |
+| brown_candle | [block] | "Brown Candle" |
+| brown_carpet | [block] | "Brown Carpet" |
+| brown_concrete | [block] | "Brown Concrete" |
+| brown_concrete_powder | [block] | "Brown Concrete Powder" |
+| brown_glazed_terracotta | [block] | "Brown Glazed Terracotta" |
+| brown_shulker_box | [block] | "Brown Shulker Box" |
+| brown_stained_glass | [block] | "Brown Stained Glass" |
+| brown_stained_glass_pane | [block] | "Brown Stained Glass Pane" |
+| brown_terracotta | [block] | "Brown Terracotta" |
+| brown_wool | [block] | "Brown Wool" |
+| candle | [block] | "Candle" |
 | cherry_button | [block] | "Cherry Button" |
 | cherry_door | [block] | "Cherry Door" |
 | cherry_fence | [block] | "Cherry Fence" |
@@ -1411,6 +1237,18 @@
 | crimson_stairs | [block] | "Crimson Stairs" |
 | crimson_stem | [block] | "Crimson Stem" |
 | crimson_trapdoor | [block] | "Crimson Trapdoor" |
+| cyan_banner | [block] | "Cyan Banner" |
+| cyan_bed | [block] | "Cyan Bed" |
+| cyan_candle | [block] | "Cyan Candle" |
+| cyan_carpet | [block] | "Cyan Carpet" |
+| cyan_concrete | [block] | "Cyan Concrete" |
+| cyan_concrete_powder | [block] | "Cyan Concrete Powder" |
+| cyan_glazed_terracotta | [block] | "Cyan Glazed Terracotta" |
+| cyan_shulker_box | [block] | "Cyan Shulker Box" |
+| cyan_stained_glass | [block] | "Cyan Stained Glass" |
+| cyan_stained_glass_pane | [block] | "Cyan Stained Glass Pane" |
+| cyan_terracotta | [block] | "Cyan Terracotta" |
+| cyan_wool | [block] | "Cyan Wool" |
 | dark_oak_button | [block] | "Dark Oak Button" |
 | dark_oak_door | [block] | "Dark Oak Door" |
 | dark_oak_fence | [block] | "Dark Oak Fence" |
@@ -1424,6 +1262,31 @@
 | dark_oak_stairs | [block] | "Dark Oak Stairs" |
 | dark_oak_trapdoor | [block] | "Dark Oak Trapdoor" |
 | dark_oak_wood | [block] | "Dark Oak Wood" |
+| glass | [block] | "Glass" |
+| glass_pane | [block] | "Glass Pane" |
+| gray_banner | [block] | "Gray Banner" |
+| gray_bed | [block] | "Gray Bed" |
+| gray_candle | [block] | "Gray Candle" |
+| gray_carpet | [block] | "Gray Carpet" |
+| gray_concrete | [block] | "Gray Concrete" |
+| gray_concrete_powder | [block] | "Gray Concrete Powder" |
+| gray_glazed_terracotta | [block] | "Gray Glazed Terracotta" |
+| gray_shulker_box | [block] | "Gray Shulker Box" |
+| gray_stained_glass | [block] | "Gray Stained Glass" |
+| gray_stained_glass_pane | [block] | "Gray Stained Glass Pane" |
+| gray_terracotta | [block] | "Gray Terracotta" |
+| gray_wool | [block] | "Gray Wool" |
+| green_banner | [block] | "Green Banner" |
+| green_bed | [block] | "Green Bed" |
+| green_candle | [block] | "Green Candle" |
+| green_carpet | [block] | "Green Carpet" |
+| green_concrete | [block] | "Green Concrete" |
+| green_concrete_powder | [block] | "Green Concrete Powder" |
+| green_glazed_terracotta | [block] | "Green Glazed Terracotta" |
+| green_shulker_box | [block] | "Green Shulker Box" |
+| green_stained_glass | [block] | "Green Stained Glass" |
+| green_stained_glass_pane | [block] | "Green Stained Glass Pane" |
+| green_terracotta | [block] | "Green Terracotta" |
 | green_wool | [block] | "Green Wool" |
 | jungle_button | [block] | "Jungle Button" |
 | jungle_door | [block] | "Jungle Door" |
@@ -1438,6 +1301,54 @@
 | jungle_stairs | [block] | "Jungle Stairs" |
 | jungle_trapdoor | [block] | "Jungle Trapdoor" |
 | jungle_wood | [block] | "Jungle Wood" |
+| light_blue_banner | [block] | "Light Blue Banner" |
+| light_blue_bed | [block] | "Light Blue Bed" |
+| light_blue_candle | [block] | "Light Blue Candle" |
+| light_blue_carpet | [block] | "Light Blue Carpet" |
+| light_blue_concrete | [block] | "Light Blue Concrete" |
+| light_blue_concrete_powder | [block] | "Light Blue Concrete Powder" |
+| light_blue_glazed_terracotta | [block] | "Light Blue Glazed Terracotta" |
+| light_blue_shulker_box | [block] | "Light Blue Shulker Box" |
+| light_blue_stained_glass | [block] | "Light Blue Stained Glass" |
+| light_blue_stained_glass_pane | [block] | "Light Blue Stained Glass Pane" |
+| light_blue_terracotta | [block] | "Light Blue Terracotta" |
+| light_blue_wool | [block] | "Light Blue Wool" |
+| light_gray_banner | [block] | "Light Gray Banner" |
+| light_gray_bed | [block] | "Light Gray Bed" |
+| light_gray_candle | [block] | "Light Gray Candle" |
+| light_gray_carpet | [block] | "Light Gray Carpet" |
+| light_gray_concrete | [block] | "Light Gray Concrete" |
+| light_gray_concrete_powder | [block] | "Light Gray Concrete Powder" |
+| light_gray_glazed_terracotta | [block] | "Light Gray Glazed Terracotta" |
+| light_gray_shulker_box | [block] | "Light Gray Shulker Box" |
+| light_gray_stained_glass | [block] | "Light Gray Stained Glass" |
+| light_gray_stained_glass_pane | [block] | "Light Gray Stained Glass Pane" |
+| light_gray_terracotta | [block] | "Light Gray Terracotta" |
+| light_gray_wool | [block] | "Light Gray Wool" |
+| lime_banner | [block] | "Lime Banner" |
+| lime_bed | [block] | "Lime Bed" |
+| lime_candle | [block] | "Lime Candle" |
+| lime_carpet | [block] | "Lime Carpet" |
+| lime_concrete | [block] | "Lime Concrete" |
+| lime_concrete_powder | [block] | "Lime Concrete Powder" |
+| lime_glazed_terracotta | [block] | "Lime Glazed Terracotta" |
+| lime_shulker_box | [block] | "Lime Shulker Box" |
+| lime_stained_glass | [block] | "Lime Stained Glass" |
+| lime_stained_glass_pane | [block] | "Lime Stained Glass Pane" |
+| lime_terracotta | [block] | "Lime Terracotta" |
+| lime_wool | [block] | "Lime Wool" |
+| magenta_banner | [block] | "Magenta Banner" |
+| magenta_bed | [block] | "Magenta Bed" |
+| magenta_candle | [block] | "Magenta Candle" |
+| magenta_carpet | [block] | "Magenta Carpet" |
+| magenta_concrete | [block] | "Magenta Concrete" |
+| magenta_concrete_powder | [block] | "Magenta Concrete Powder" |
+| magenta_glazed_terracotta | [block] | "Magenta Glazed Terracotta" |
+| magenta_shulker_box | [block] | "Magenta Shulker Box" |
+| magenta_stained_glass | [block] | "Magenta Stained Glass" |
+| magenta_stained_glass_pane | [block] | "Magenta Stained Glass Pane" |
+| magenta_terracotta | [block] | "Magenta Terracotta" |
+| magenta_wool | [block] | "Magenta Wool" |
 | mangrove_button | [block] | "Mangrove Button" |
 | mangrove_door | [block] | "Mangrove Door" |
 | mangrove_fence | [block] | "Mangrove Fence" |
@@ -1464,6 +1375,17 @@
 | oak_stairs | [block] | "Oak Stairs" |
 | oak_trapdoor | [block] | "Oak Trapdoor" |
 | oak_wood | [block] | "Oak Wood" |
+| orange_banner | [block] | "Orange Banner" |
+| orange_bed | [block] | "Orange Bed" |
+| orange_candle | [block] | "Orange Candle" |
+| orange_carpet | [block] | "Orange Carpet" |
+| orange_concrete | [block] | "Orange Concrete" |
+| orange_concrete_powder | [block] | "Orange Concrete Powder" |
+| orange_glazed_terracotta | [block] | "Orange Glazed Terracotta" |
+| orange_shulker_box | [block] | "Orange Shulker Box" |
+| orange_stained_glass | [block] | "Orange Stained Glass" |
+| orange_stained_glass_pane | [block] | "Orange Stained Glass Pane" |
+| orange_terracotta | [block] | "Orange Terracotta" |
 | orange_wool | [block] | "Orange Wool" |
 | pale_oak_button | [block] | "Pale Oak Button" |
 | pale_oak_door | [block] | "Pale Oak Door" |
@@ -1478,7 +1400,43 @@
 | pale_oak_stairs | [block] | "Pale Oak Stairs" |
 | pale_oak_trapdoor | [block] | "Pale Oak Trapdoor" |
 | pale_oak_wood | [block] | "Pale Oak Wood" |
+| pink_banner | [block] | "Pink Banner" |
+| pink_bed | [block] | "Pink Bed" |
+| pink_candle | [block] | "Pink Candle" |
+| pink_carpet | [block] | "Pink Carpet" |
+| pink_concrete | [block] | "Pink Concrete" |
+| pink_concrete_powder | [block] | "Pink Concrete Powder" |
+| pink_glazed_terracotta | [block] | "Pink Glazed Terracotta" |
+| pink_shulker_box | [block] | "Pink Shulker Box" |
+| pink_stained_glass | [block] | "Pink Stained Glass" |
+| pink_stained_glass_pane | [block] | "Pink Stained Glass Pane" |
+| pink_terracotta | [block] | "Pink Terracotta" |
+| pink_wool | [block] | "Pink Wool" |
+| purple_banner | [block] | "Purple Banner" |
 | purple_bed | [block] | "Purple Bed" |
+| purple_candle | [block] | "Purple Candle" |
+| purple_carpet | [block] | "Purple Carpet" |
+| purple_concrete | [block] | "Purple Concrete" |
+| purple_concrete_powder | [block] | "Purple Concrete Powder" |
+| purple_glazed_terracotta | [block] | "Purple Glazed Terracotta" |
+| purple_shulker_box | [block] | "Purple Shulker Box" |
+| purple_stained_glass | [block] | "Purple Stained Glass" |
+| purple_stained_glass_pane | [block] | "Purple Stained Glass Pane" |
+| purple_terracotta | [block] | "Purple Terracotta" |
+| purple_wool | [block] | "Purple Wool" |
+| red_banner | [block] | "Red Banner" |
+| red_bed | [block] | "Red Bed" |
+| red_candle | [block] | "Red Candle" |
+| red_carpet | [block] | "Red Carpet" |
+| red_concrete | [block] | "Red Concrete" |
+| red_concrete_powder | [block] | "Red Concrete Powder" |
+| red_glazed_terracotta | [block] | "Red Glazed Terracotta" |
+| red_shulker_box | [block] | "Red Shulker Box" |
+| red_stained_glass | [block] | "Red Stained Glass" |
+| red_stained_glass_pane | [block] | "Red Stained Glass Pane" |
+| red_terracotta | [block] | "Red Terracotta" |
+| red_wool | [block] | "Red Wool" |
+| shulker_box | [block] | "Shulker Box" |
 | spruce_button | [block] | "Spruce Button" |
 | spruce_door | [block] | "Spruce Door" |
 | spruce_fence | [block] | "Spruce Fence" |
@@ -1515,6 +1473,7 @@
 | stripped_spruce_wood | [block] | "Stripped Spruce Wood" |
 | stripped_warped_hyphae | [block] | "Stripped Warped Hyphae" |
 | stripped_warped_stem | [block] | "Stripped Warped Stem" |
+| terracotta | [block] | "Terracotta" |
 | warped_button | [block] | "Warped Button" |
 | warped_door | [block] | "Warped Door" |
 | warped_fence | [block] | "Warped Fence" |
@@ -1528,45 +1487,86 @@
 | warped_stairs | [block] | "Warped Stairs" |
 | warped_stem | [block] | "Warped Stem" |
 | warped_trapdoor | [block] | "Warped Trapdoor" |
+| white_banner | [block] | "White Banner" |
+| white_bed | [block] | "White Bed" |
+| white_candle | [block] | "White Candle" |
+| white_carpet | [block] | "White Carpet" |
+| white_concrete | [block] | "White Concrete" |
+| white_concrete_powder | [block] | "White Concrete Powder" |
+| white_glazed_terracotta | [block] | "White Glazed Terracotta" |
+| white_shulker_box | [block] | "White Shulker Box" |
+| white_stained_glass | [block] | "White Stained Glass" |
+| white_stained_glass_pane | [block] | "White Stained Glass Pane" |
+| white_terracotta | [block] | "White Terracotta" |
+| white_wool | [block] | "White Wool" |
+| yellow_banner | [block] | "Yellow Banner" |
+| yellow_bed | [block] | "Yellow Bed" |
+| yellow_candle | [block] | "Yellow Candle" |
+| yellow_carpet | [block] | "Yellow Carpet" |
+| yellow_concrete | [block] | "Yellow Concrete" |
+| yellow_concrete_powder | [block] | "Yellow Concrete Powder" |
+| yellow_glazed_terracotta | [block] | "Yellow Glazed Terracotta" |
+| yellow_shulker_box | [block] | "Yellow Shulker Box" |
+| yellow_stained_glass | [block] | "Yellow Stained Glass" |
+| yellow_stained_glass_pane | [block] | "Yellow Stained Glass Pane" |
+| yellow_terracotta | [block] | "Yellow Terracotta" |
+| yellow_wool | [block] | "Yellow Wool" |
 | acacia_boat | [item] | "Acacia Boat" |
 | acacia_chest_boat | [item] | "Acacia Boat with Chest" |
 | bamboo_chest_raft | [item] | "Bamboo Raft with Chest" |
 | bamboo_raft | [item] | "Bamboo Raft" |
 | birch_boat | [item] | "Birch Boat" |
 | birch_chest_boat | [item] | "Birch Boat with Chest" |
+| black_bundle | [item] | "Black Bundle" |
 | black_dye | [item] | "Black Dye" |
+| blue_bundle | [item] | "Blue Bundle" |
 | blue_dye | [item] | "Blue Dye" |
+| brown_bundle | [item] | "Brown Bundle" |
 | brown_dye | [item] | "Brown Dye" |
+| bundle | [item] | "Bundle" |
 | cherry_boat | [item] | "Cherry Boat" |
 | cherry_chest_boat | [item] | "Cherry Boat with Chest" |
+| cyan_bundle | [item] | "Cyan Bundle" |
 | cyan_dye | [item] | "Cyan Dye" |
 | dark_oak_boat | [item] | "Dark Oak Boat" |
 | dark_oak_chest_boat | [item] | "Dark Oak Boat with Chest" |
 | diamond_axe | [item] | "Diamond Axe" |
 | golden_axe | [item] | "Golden Axe" |
+| gray_bundle | [item] | "Gray Bundle" |
 | gray_dye | [item] | "Gray Dye" |
+| green_bundle | [item] | "Green Bundle" |
 | green_dye | [item] | "Green Dye" |
 | iron_axe | [item] | "Iron Axe" |
 | jungle_boat | [item] | "Jungle Boat" |
 | jungle_chest_boat | [item] | "Jungle Boat with Chest" |
+| light_blue_bundle | [item] | "Light Blue Bundle" |
 | light_blue_dye | [item] | "Light Blue Dye" |
+| light_gray_bundle | [item] | "Light Gray Bundle" |
 | light_gray_dye | [item] | "Light Gray Dye" |
+| lime_bundle | [item] | "Lime Bundle" |
 | lime_dye | [item] | "Lime Dye" |
+| magenta_bundle | [item] | "Magenta Bundle" |
 | magenta_dye | [item] | "Magenta Dye" |
 | mangrove_boat | [item] | "Mangrove Boat" |
 | mangrove_chest_boat | [item] | "Mangrove Boat with Chest" |
 | netherite_axe | [item] | "Netherite Axe" |
 | oak_boat | [item] | "Oak Boat" |
 | oak_chest_boat | [item] | "Oak Boat with Chest" |
+| orange_bundle | [item] | "Orange Bundle" |
 | orange_dye | [item] | "Orange Dye" |
 | pale_oak_boat | [item] | "Pale Oak Boat" |
 | pale_oak_chest_boat | [item] | "Pale Oak Boat with Chest" |
+| pink_bundle | [item] | "Pink Bundle" |
 | pink_dye | [item] | "Pink Dye" |
+| purple_bundle | [item] | "Purple Bundle" |
 | purple_dye | [item] | "Purple Dye" |
+| red_bundle | [item] | "Red Bundle" |
 | red_dye | [item] | "Red Dye" |
 | spruce_boat | [item] | "Spruce Boat" |
 | spruce_chest_boat | [item] | "Spruce Boat with Chest" |
 | stone_axe | [item] | "Stone Axe" |
+| white_bundle | [item] | "White Bundle" |
 | white_dye | [item] | "White Dye" |
 | wooden_axe | [item] | "Wooden Axe" |
+| yellow_bundle | [item] | "Yellow Bundle" |
 | yellow_dye | [item] | "Yellow Dye" |

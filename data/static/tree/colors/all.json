@@ -2,7 +2,7 @@
     "parent": "root",
     "display": {
         "group": "colored_items",
-        "item": "red_dye",
+        "item": "black_dye",
         "title": "Taste the Rainbow"
     }
 }

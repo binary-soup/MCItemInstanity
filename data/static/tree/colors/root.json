@@ -1,8 +1,8 @@
 {
     "display": {
-        "item": "purple_glazed_terracotta",
+        "item": "red_dye",
         "title": "Splash of Color",
-        "description": "Just a \"splash\"",
+        "description": "Just a \"splash\"...",
         "background": "block/gray_wool"
     }
 }

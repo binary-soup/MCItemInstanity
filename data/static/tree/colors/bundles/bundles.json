@@ -1,0 +1,27 @@
+{
+    "parent": "../dye",
+    "display": {
+        "item": "yellow_bundle",
+        "title": "Poor Man's Shulker",
+        "frame": "goal"
+    },
+    "items": [
+        "bundle",
+        "white_bundle",
+        "light_gray_bundle",
+        "gray_bundle",
+        "black_bundle",
+        "brown_bundle",
+        "red_bundle",
+        "orange_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "green_bundle",
+        "cyan_bundle",
+        "light_blue_bundle",
+        "blue_bundle",
+        "purple_bundle",
+        "magenta_bundle",
+        "pink_bundle"
+    ]
+}

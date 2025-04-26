@@ -1,10 +1,11 @@
 {
-    "parent": "dye",
+    "parent": "root",
     "display": {
-        "item": "purple_dye",
-        "title": "I Came From Pallette Town",
+        "item": "white_dye",
+        "title": "Dyeing to Get Started",
         "frame": "goal"
     },
+    "type": "any",
     "items": [
         "white_dye",
         "light_gray_dye",
